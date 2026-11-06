@@ -46,7 +46,8 @@
           "mg": 1500,
           "price": 55.0
         }
-      ]
+      ],
+      "image": "images/products/glutathione-vial.png"
     },
     {
       "id": "nad-plus-1000mg",
@@ -65,7 +66,8 @@
           "mg": 1000,
           "price": 110.0
         }
-      ]
+      ],
+      "image": "images/products/nad-plus-scene.webp"
     },
     {
       "id": "nad-plus-500mg",
@@ -84,7 +86,8 @@
           "mg": 500,
           "price": 80.0
         }
-      ]
+      ],
+      "image": "images/products/nad-plus-scene.webp"
     },
     {
       "id": "nad-plus-100mg",
@@ -103,7 +106,8 @@
           "mg": 100,
           "price": 40.0
         }
-      ]
+      ],
+      "image": "images/products/nad-plus-scene.webp"
     },
     {
       "id": "ghk-cu-100mg",
@@ -122,7 +126,8 @@
           "mg": 100,
           "price": 59.0
         }
-      ]
+      ],
+      "image": "images/products/ghk-cu-vial.png"
     },
     {
       "id": "cerebrolysin-60mg",
@@ -141,7 +146,8 @@
           "mg": 60,
           "price": 50.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "ghk-cu-50mg",
@@ -160,7 +166,8 @@
           "mg": 50,
           "price": 49.0
         }
-      ]
+      ],
+      "image": "images/products/ghk-cu-vial.png"
     },
     {
       "id": "ahk-cu-50mg",
@@ -179,7 +186,8 @@
           "mg": 50,
           "price": 60.0
         }
-      ]
+      ],
+      "image": "images/products/ghk-cu-vial.png"
     },
     {
       "id": "epithalon-50mg",
@@ -198,7 +206,8 @@
           "mg": 50,
           "price": 109.0
         }
-      ]
+      ],
+      "image": "images/products/epitalon-scene.webp"
     },
     {
       "id": "semax-30mg",
@@ -217,7 +226,8 @@
           "mg": 30,
           "price": 69.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "mots-c-40mg",
@@ -236,7 +246,8 @@
           "mg": 40,
           "price": 100.0
         }
-      ]
+      ],
+      "image": "images/products/mots-c-scene.webp"
     },
     {
       "id": "selank-30mg",
@@ -255,7 +266,8 @@
           "mg": 30,
           "price": 79.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "melanotan-ii-10mg",
@@ -274,7 +286,8 @@
           "mg": 10,
           "price": 35.0
         }
-      ]
+      ],
+      "image": "images/products/tb-500-vial.png"
     },
     {
       "id": "mots-c-20mg",
@@ -293,7 +306,8 @@
           "mg": 20,
           "price": 75.0
         }
-      ]
+      ],
+      "image": "images/products/mots-c-scene.webp"
     },
     {
       "id": "semax-10mg",
@@ -312,7 +326,8 @@
           "mg": 10,
           "price": 39.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "bronchogen-20mg",
@@ -331,7 +346,8 @@
           "mg": 20,
           "price": 80.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "epithalon-10mg",
@@ -350,7 +366,8 @@
           "mg": 10,
           "price": 40.0
         }
-      ]
+      ],
+      "image": "images/products/epitalon-scene.webp"
     },
     {
       "id": "melanotan-i-10mg",
@@ -369,7 +386,8 @@
           "mg": 10,
           "price": 40.0
         }
-      ]
+      ],
+      "image": "images/products/tb-500-vial.png"
     },
     {
       "id": "pt-141-10mg",
@@ -388,7 +406,8 @@
           "mg": 10,
           "price": 40.0
         }
-      ]
+      ],
+      "image": "images/products/tb-500-vial.png"
     },
     {
       "id": "ss-31-50mg",
@@ -407,7 +426,8 @@
           "mg": 50,
           "price": 209.0
         }
-      ]
+      ],
+      "image": "images/products/ss-31-scene.webp"
     },
     {
       "id": "cardiogen-20mg",
@@ -426,7 +446,8 @@
           "mg": 20,
           "price": 85.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "cartalax-20mg",
@@ -445,7 +466,8 @@
           "mg": 20,
           "price": 85.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "cortagen-20mg",
@@ -464,7 +486,8 @@
           "mg": 20,
           "price": 85.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "pinealon-20mg",
@@ -483,7 +506,8 @@
           "mg": 20,
           "price": 85.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "selank-10mg",
@@ -502,7 +526,8 @@
           "mg": 10,
           "price": 44.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "oxytocin-10mg",
@@ -521,7 +546,8 @@
           "mg": 10,
           "price": 45.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "kpv-10mg",
@@ -540,7 +566,8 @@
           "mg": 10,
           "price": 49.0
         }
-      ]
+      ],
+      "image": "images/products/kpv-scene.webp"
     },
     {
       "id": "ghrp-2-15mg",
@@ -559,7 +586,8 @@
           "mg": 15,
           "price": 80.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "dsip-10mg",
@@ -578,7 +606,8 @@
           "mg": 10,
           "price": 54.0
         }
-      ]
+      ],
+      "image": "images/products/dsip-scene.webp"
     },
     {
       "id": "bpc-tb-blend-20mg",
@@ -597,7 +626,8 @@
           "mg": 20,
           "price": 109.0
         }
-      ]
+      ],
+      "image": "images/products/bpc-tb-500-blend.png"
     },
     {
       "id": "matrixyl-10mg",
@@ -616,7 +646,8 @@
           "mg": 10,
           "price": 55.0
         }
-      ]
+      ],
+      "image": "images/products/bpc-157-vial.png"
     },
     {
       "id": "bpc-157-10mg",
@@ -635,7 +666,8 @@
           "mg": 10,
           "price": 59.0
         }
-      ]
+      ],
+      "image": "images/products/bpc-157-purerawz.webp"
     },
     {
       "id": "ss-31-10mg",
@@ -654,7 +686,8 @@
           "mg": 10,
           "price": 59.0
         }
-      ]
+      ],
+      "image": "images/products/ss-31-scene.webp"
     },
     {
       "id": "mots-c-10mg",
@@ -673,7 +706,8 @@
           "mg": 10,
           "price": 60.0
         }
-      ]
+      ],
+      "image": "images/products/mots-c-scene.webp"
     },
     {
       "id": "pinealon-10mg",
@@ -692,7 +726,8 @@
           "mg": 10,
           "price": 60.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "vesugen-10mg",
@@ -711,7 +746,8 @@
           "mg": 10,
           "price": 60.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "ipamorelin-10mg",
@@ -730,7 +766,8 @@
           "mg": 10,
           "price": 65.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "cjc-ipa-20mg",
@@ -750,7 +787,8 @@
           "price": 135.0
         }
       ],
-      "featured": true
+      "featured": true,
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "cjc-1295-5mg",
@@ -769,7 +807,8 @@
           "mg": 5,
           "price": 34.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "semax-5mg",
@@ -788,7 +827,8 @@
           "mg": 5,
           "price": 34.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "ara-290-10mg",
@@ -807,7 +847,8 @@
           "mg": 10,
           "price": 70.0
         }
-      ]
+      ],
+      "image": "images/products/ara-290-vial.webp"
     },
     {
       "id": "pe-22-28-10mg",
@@ -826,7 +867,8 @@
           "mg": 10,
           "price": 70.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "aod-9604-10mg",
@@ -845,7 +887,8 @@
           "mg": 10,
           "price": 75.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "ghrp-2-10mg",
@@ -864,7 +907,8 @@
           "mg": 10,
           "price": 75.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "ghrp-6-10mg",
@@ -883,7 +927,8 @@
           "mg": 10,
           "price": 75.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "sermorelin-10mg",
@@ -902,7 +947,8 @@
           "mg": 10,
           "price": 75.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "tb-500-10mg",
@@ -921,7 +967,8 @@
           "mg": 10,
           "price": 75.0
         }
-      ]
+      ],
+      "image": "images/products/tb-500-vial.png"
     },
     {
       "id": "tesamorelin-20mg",
@@ -940,7 +987,8 @@
           "mg": 20,
           "price": 150.0
         }
-      ]
+      ],
+      "image": "images/products/tesamorelin-vial.png"
     },
     {
       "id": "kpv-5mg",
@@ -959,7 +1007,8 @@
           "mg": 5,
           "price": 39.0
         }
-      ]
+      ],
+      "image": "images/products/kpv-scene.webp"
     },
     {
       "id": "selank-5mg",
@@ -978,7 +1027,8 @@
           "mg": 5,
           "price": 39.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "cjc-ipa-10mg",
@@ -998,7 +1048,8 @@
           "price": 79.0
         }
       ],
-      "featured": true
+      "featured": true,
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "oxytocin-5mg",
@@ -1017,7 +1068,8 @@
           "mg": 5,
           "price": 40.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "tesamorelin-10mg",
@@ -1036,7 +1088,8 @@
           "mg": 10,
           "price": 80.0
         }
-      ]
+      ],
+      "image": "images/products/tesamorelin-vial.png"
     },
     {
       "id": "thymalin-10mg",
@@ -1055,7 +1108,8 @@
           "mg": 10,
           "price": 80.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "bpc-tb-blend-10mg",
@@ -1076,7 +1130,8 @@
         }
       ],
       "featured": true,
-      "testing": "Independent laboratory testing published for this blend: 99.43% / 99.42% (MZ Biolabs, Tucson AZ)."
+      "testing": "Independent laboratory testing published for this blend: 99.43% / 99.42% (MZ Biolabs, Tucson AZ).",
+      "image": "images/products/bpc-tb-500-blend.png"
     },
     {
       "id": "cjc-1295-10mg",
@@ -1095,7 +1150,8 @@
           "mg": 10,
           "price": 85.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "kisspeptin-10-10mg",
@@ -1114,7 +1170,8 @@
           "mg": 10,
           "price": 85.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "aod-9604-5mg",
@@ -1133,7 +1190,8 @@
           "mg": 5,
           "price": 44.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "ipamorelin-5mg",
@@ -1152,7 +1210,8 @@
           "mg": 5,
           "price": 44.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-scene.webp"
     },
     {
       "id": "ghrp-2-5mg",
@@ -1171,7 +1230,8 @@
           "mg": 5,
           "price": 45.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "ghrp-6-5mg",
@@ -1190,7 +1250,8 @@
           "mg": 5,
           "price": 45.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "tesamorelin-5mg",
@@ -1209,7 +1270,8 @@
           "mg": 5,
           "price": 45.0
         }
-      ]
+      ],
+      "image": "images/products/tesamorelin-vial.png"
     },
     {
       "id": "bpc-157-5mg",
@@ -1229,7 +1291,8 @@
           "price": 49.0
         }
       ],
-      "featured": true
+      "featured": true,
+      "image": "images/products/bpc-157-vial.png"
     },
     {
       "id": "dsip-5mg",
@@ -1248,7 +1311,8 @@
           "mg": 5,
           "price": 49.0
         }
-      ]
+      ],
+      "image": "images/products/dsip-scene.webp"
     },
     {
       "id": "sermorelin-5mg",
@@ -1267,7 +1331,8 @@
           "mg": 5,
           "price": 50.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "adipotide-10mg",
@@ -1286,7 +1351,8 @@
           "mg": 10,
           "price": 105.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "tb-500-5mg",
@@ -1306,7 +1372,8 @@
           "price": 54.0
         }
       ],
-      "featured": true
+      "featured": true,
+      "image": "images/products/tb-500-scene.webp"
     },
     {
       "id": "kisspeptin-10-5mg",
@@ -1325,7 +1392,8 @@
           "mg": 5,
           "price": 60.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "thymosin-alpha-1-10mg",
@@ -1344,7 +1412,8 @@
           "mg": 10,
           "price": 130.0
         }
-      ]
+      ],
+      "image": "images/products/bpc-157-vial.png"
     },
     {
       "id": "vip-5mg",
@@ -1363,7 +1432,8 @@
           "mg": 5,
           "price": 65.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "thymosin-alpha-1-5mg",
@@ -1382,7 +1452,8 @@
           "mg": 5,
           "price": 70.0
         }
-      ]
+      ],
+      "image": "images/products/bpc-157-vial.png"
     },
     {
       "id": "vip-10mg",
@@ -1401,7 +1472,8 @@
           "mg": 10,
           "price": 150.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "foxo4-dri-10mg",
@@ -1420,7 +1492,8 @@
           "mg": 10,
           "price": 175.0
         }
-      ]
+      ],
+      "image": "images/products/ara-290-vial.webp"
     },
     {
       "id": "p21-5mg",
@@ -1439,7 +1512,8 @@
           "mg": 5,
           "price": 95.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "adipotide-5mg",
@@ -1458,7 +1532,8 @@
           "mg": 5,
           "price": 100.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "cjc-1295-dac-5mg",
@@ -1477,7 +1552,8 @@
           "mg": 5,
           "price": 130.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "foxo4-dri-2mg",
@@ -1496,7 +1572,8 @@
           "mg": 2,
           "price": 55.0
         }
-      ]
+      ],
+      "image": "images/products/ara-290-vial.webp"
     },
     {
       "id": "gonadorelin-2mg",
@@ -1515,7 +1592,8 @@
           "mg": 2,
           "price": 55.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "ll-37-5mg",
@@ -1534,7 +1612,8 @@
           "mg": 5,
           "price": 150.0
         }
-      ]
+      ],
+      "image": "images/products/bpc-157-vial.png"
     },
     {
       "id": "snap-8-2mg",
@@ -1553,7 +1632,8 @@
           "mg": 2,
           "price": 65.0
         }
-      ]
+      ],
+      "image": "images/products/semax-scene.webp"
     },
     {
       "id": "igf-1-des-2mg",
@@ -1572,7 +1652,8 @@
           "mg": 2,
           "price": 75.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "peg-mgf-2mg",
@@ -1591,7 +1672,8 @@
           "mg": 2,
           "price": 80.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "ace-031-1mg",
@@ -1610,7 +1692,8 @@
           "mg": 1,
           "price": 60.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "ptd-dbm-1mg",
@@ -1629,7 +1712,8 @@
           "mg": 1,
           "price": 60.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "igf-1-lr3-1mg",
@@ -1648,7 +1732,8 @@
           "mg": 1,
           "price": 95.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "gdf-8-1mg",
@@ -1667,7 +1752,8 @@
           "mg": 1,
           "price": 155.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "igf-1-lr3-0-1mg",
@@ -1686,7 +1772,8 @@
           "mg": 0.1,
           "price": 65.0
         }
-      ]
+      ],
+      "image": "images/products/ipamorelin-vial.png"
     },
     {
       "id": "tesamorelin-2mg",
@@ -1705,7 +1792,8 @@
           "mg": 2,
           "price": 24.99
         }
-      ]
+      ],
+      "image": "images/products/tesamorelin-vial.png"
     },
     {
       "id": "mots-c-5mg",
@@ -1724,7 +1812,8 @@
           "mg": 5,
           "price": 59.99
         }
-      ]
+      ],
+      "image": "images/products/mots-c-scene.webp"
     },
     {
       "id": "glow-bundle",
@@ -1743,7 +1832,8 @@
           "mg": 60,
           "price": 157.99
         }
-      ]
+      ],
+      "image": "images/products/bpc-tb-500-blend.png"
     },
     {
       "id": "bpc-157-20mg",
@@ -1762,7 +1852,8 @@
           "mg": 20,
           "price": 41.4
         }
-      ]
+      ],
+      "image": "images/products/bpc-157-scene.webp"
     },
     {
       "id": "na-semax-30mg",
@@ -1781,7 +1872,8 @@
           "mg": 30,
           "price": 47.4
         }
-      ]
+      ],
+      "image": "images/products/na-semax-scene.webp"
     },
     {
       "id": "dsip-15mg",
@@ -1800,7 +1892,8 @@
           "mg": 15,
           "price": 39.0
         }
-      ]
+      ],
+      "image": "images/products/dsip-scene.webp"
     },
     {
       "id": "foxo4-dri-5mg",
@@ -1819,7 +1912,8 @@
           "mg": 5,
           "price": 77.4
         }
-      ]
+      ],
+      "image": "images/products/ara-290-vial.webp"
     },
     {
       "id": "bpc-157-capsules",
@@ -1838,7 +1932,8 @@
           "mg": 30,
           "price": 85.95
         }
-      ]
+      ],
+      "image": "images/products/bpc-157-capsules.png"
     },
     {
       "id": "tb-500-capsules",
@@ -1857,7 +1952,8 @@
           "mg": 30,
           "price": 149.99
         }
-      ]
+      ],
+      "image": "images/products/tb-500-capsules.png"
     },
     {
       "id": "healing-bundle",
@@ -1876,7 +1972,8 @@
           "mg": null,
           "price": 71.38
         }
-      ]
+      ],
+      "image": "images/products/healing-research-bundle.png"
     },
     {
       "id": "longevity-bundle",
@@ -1895,7 +1992,8 @@
           "mg": null,
           "price": 129.18
         }
-      ]
+      ],
+      "image": "images/products/longevity-research-bundle.png"
     },
     {
       "id": "glutathione-600mg",
@@ -1914,7 +2012,8 @@
           "mg": 600,
           "price": 29.95
         }
-      ]
+      ],
+      "image": "images/products/glutathione-scene.webp"
     },
     {
       "id": "kpv-capsules",
@@ -1933,7 +2032,8 @@
           "mg": 15,
           "price": 139.95
         }
-      ]
+      ],
+      "image": "images/products/kpv-scene.webp"
     }
   ]
 }

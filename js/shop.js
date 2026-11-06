@@ -3,12 +3,24 @@
 
 var RESEARCH_NOTICE = "For laboratory research use only. Not for human or animal use. Not a drug, food, dietary supplement, or cosmetic. Not intended to diagnose, treat, cure, or prevent any disease.";
 
-var CATEGORY_COLORS = {
-  healing: "#0b5e6e",
-  growth: "#3d6e1f",
-  cognitive: "#5b4a8a",
-  tanning: "#a06a1b"
+var FALLBACK_IMAGES = {
+  healing: "images/products/bpc-157-vial.png",
+  growth: "images/products/ipamorelin-vial.png",
+  cognitive: "images/products/semax-scene.webp",
+  tanning: "images/products/tb-500-vial.png",
+  cellular: "images/products/ara-290-vial.webp",
+  bundles: "images/products/bpc-tb-500-blend.png"
 };
+
+function escAttr(s) {
+  return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+}
+
+function productImage(product) {
+  var src = product.image || FALLBACK_IMAGES[product.category] || FALLBACK_IMAGES.healing;
+  var fallback = FALLBACK_IMAGES[product.category] || FALLBACK_IMAGES.healing;
+  return '<img src="' + src + '" alt="Photo of ' + escAttr(product.name) + ' vial" loading="lazy" onerror="this.onerror=null;this.src=\'' + fallback + '\'">';
+}
 
 function money(n) {
   return "$" + n.toFixed(2);
@@ -23,25 +35,6 @@ function categoryName(data, id) {
   return c ? c.name : id;
 }
 
-function vialSVG(product) {
-  var color = CATEGORY_COLORS[product.category] || "#0b5e6e";
-  var label = (product.label || product.name).replace(/&/g, "&amp;").replace(/</g, "&lt;");
-  var lines = label.length > 10 ? label.split(" ") : [label];
-  var text = "";
-  lines.forEach(function (line, i) {
-    text += '<text x="100" y="' + (128 + i * 15) + '" text-anchor="middle" font-size="13" font-weight="700" fill="#1c2733" font-family="Arial, sans-serif">' +
-      line.replace(/&/g, "&amp;").replace(/</g, "&lt;") + "</text>";
-  });
-  return '<svg width="150" height="190" viewBox="0 0 200 190" role="img" aria-label="Illustration of a sealed glass vial labelled ' + label + '">' +
-    '<rect x="78" y="8" width="44" height="18" rx="3" fill="#3a4a52"/>' +
-    '<rect x="72" y="24" width="56" height="14" rx="3" fill="#8a9aa2"/>' +
-    '<path d="M70 38 L130 38 L136 170 Q136 178 128 178 L72 178 Q64 178 64 170 Z" fill="#dcebf0" stroke="#9db4bd" stroke-width="2"/>' +
-    '<path d="M70 118 L130 118 L133 170 Q133 178 128 178 L72 178 Q67 178 67 170 Z" fill="' + color + '" opacity="0.55"/>' +
-    '<rect x="70" y="96" width="60" height="52" rx="3" fill="#ffffff" stroke="#c4d0d4"/>' +
-    text +
-    "</svg>";
-}
-
 function productCard(data, product) {
   var priceLine, priceNote;
   if (product.variants.length === 1) {
@@ -53,7 +46,7 @@ function productCard(data, product) {
     priceNote = "per vial · prices in USD";
   }
   var html = '<article class="card">' +
-    '<div class="vial">' + vialSVG(product) + "</div>" +
+    '<div class="vial">' + productImage(product) + "</div>" +
     '<div class="card-body">' +
     '<span class="category-tag">' + categoryName(data, product.category) + "</span>" +
     '<h3><a href="product.html?id=' + product.id + '">' + product.name + "</a></h3>" +
@@ -160,7 +153,7 @@ function renderProduct(data) {
   }
 
   el.innerHTML =
-    '<div class="vial">' + vialSVG(product) + "</div>" +
+    '<div class="vial">' + productImage(product) + "</div>" +
     '<div>' +
     '<span class="category-tag">' + categoryName(data, product.category) + "</span>" +
     "<h1>" + product.name + "</h1>" +
