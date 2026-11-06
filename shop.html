@@ -4,7 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Shop — Peptide Store</title>
-<meta name="description" content="All 24 research peptides in the Peptide Store range. Search and filter by category. No account needed to buy.">
+<meta name="description" content="All 100 research peptides in the Peptide Store range. Search and filter by category. No account needed to buy.">
+<link rel="canonical" href="https://clarenceatim.github.io/peptide-store/shop.html">
+<meta property="og:title" content="Shop — Peptide Store">
+<meta property="og:description" content="All 100 research peptides in the Peptide Store range. Search and filter by category. No account needed to buy.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://clarenceatim.github.io/peptide-store/shop.html">
+<meta property="og:image" content="https://clarenceatim.github.io/peptide-store/images/products/bpc-157-vial.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Shop — Peptide Store">
+<meta name="twitter:description" content="All 100 research peptides in the Peptide Store range. Search and filter by category. No account needed to buy.">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,6 +26,16 @@
       <a href="cart.html" class="cart-link">Cart <span class="cart-count" data-cart-count>0</span></a>
     </nav>
   </div>
+  <nav class="cat-nav" aria-label="Product categories">
+    <div class="container">
+      <a href="category.html?cat=healing">Healing</a>
+      <a href="category.html?cat=growth">Growth / Secretagogues</a>
+      <a href="category.html?cat=cognitive">Cognitive</a>
+      <a href="category.html?cat=tanning">Tanning</a>
+      <a href="category.html?cat=cellular">Cellular</a>
+      <a href="category.html?cat=bundles">Bundles</a>
+    </div>
+  </nav>
 </header>
 <div class="guest-note">
   <div class="container">No account needed — buy as a guest. Delivery across Europe.</div>
@@ -28,6 +47,13 @@
     <p class="lead">100 research peptides. Prices are shown in US dollars (USD). Euro (EUR) pricing will be set by the store.</p>
     <div class="toolbar">
       <input type="search" id="shop-search" placeholder="Search products…" aria-label="Search products">
+      <label class="sort-label" for="shop-sort">Sort by</label>
+      <select id="shop-sort" class="sort-select">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price: low to high</option>
+        <option value="price-desc">Price: high to low</option>
+        <option value="name-asc">Name: A to Z</option>
+      </select>
     </div>
     <div class="toolbar" id="filter-row"></div>
     <p class="price-note" id="shop-count"></p>
@@ -44,21 +70,31 @@
       <div>
         <h4>Peptide Store</h4>
         <p>Laboratory research peptides, delivered across Europe. No account needed to buy.</p>
+        <p class="currency-note" data-currency-note></p>
       </div>
       <div>
-        <h4>Shop</h4>
+        <h4>Shop by category</h4>
         <ul>
           <li><a href="shop.html">All products</a></li>
-          <li><a href="shop.html?category=healing">Healing</a></li>
-          <li><a href="shop.html?category=growth">Growth / Secretagogues</a></li>
-          <li><a href="shop.html?category=cognitive">Cognitive</a></li>
-          <li><a href="shop.html?category=tanning">Tanning</a></li>
-          <li><a href="shop.html?category=cellular">Cellular</a></li>
-          <li><a href="shop.html?category=bundles">Bundles</a></li>
+          <li><a href="category.html?cat=healing">Healing</a></li>
+          <li><a href="category.html?cat=growth">Growth / Secretagogues</a></li>
+          <li><a href="category.html?cat=cognitive">Cognitive</a></li>
+          <li><a href="category.html?cat=tanning">Tanning</a></li>
+          <li><a href="category.html?cat=cellular">Cellular</a></li>
+          <li><a href="category.html?cat=bundles">Bundles</a></li>
         </ul>
       </div>
       <div>
-        <h4>Information</h4>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="shipping.html">Shipping</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
         <ul>
           <li><a href="terms.html">Terms of sale</a></li>
           <li><a href="privacy.html">Privacy notice</a></li>

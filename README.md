@@ -19,8 +19,11 @@ Product photos are real vial photos downloaded from the reference stores and sto
 ## Files
 
 - `index.html` — homepage: hero, categories, featured products, how ordering works
-- `shop.html` — full catalog with search and category filter
-- `product.html` — product detail with size selector, per-mg price, add to cart
+- `shop.html` — full catalog with search, category filter with counts, and sorting (price, name)
+- `product.html` — product detail with size selector, per-mg price, add to cart, dynamic SEO (title, meta, Open Graph, JSON-LD Product + breadcrumbs)
+- `category.html` — one landing page per category (6), with intro, breadcrumbs, product grid, dynamic SEO + JSON-LD ItemList
+- `faq.html`, `about.html`, `shipping.html`, `contact.html` — help pages (contact form shows a confirmation; not connected to an inbox yet)
+- `sitemap.xml` — 117 URLs (homepage, 10 pages, 6 category pages, 100 product pages); `robots.txt` — allows all, points at the sitemap
 - `cart.html` — cart with quantities and remove
 - `checkout.html` — guest checkout form (European country list)
 - `confirmation.html` — order confirmation with reference and summary
@@ -28,11 +31,19 @@ Product photos are real vial photos downloaded from the reference stores and sto
 - `css/style.css` — all styles
 - `js/shop.js` — catalog data, rendering, search/filter, product page, product photos
 - `js/cart.js` — cart (localStorage), checkout, order reference, confirmation
-- `data/products.json` — the 24 products, categories, prices
+- `data/products.json` — the 100 products, categories, prices (unchanged by the SEO pass)
+
+## SEO
+
+- Unique title + meta description on every page; product and category pages set theirs dynamically from the catalog data (with a static fallback in the HTML).
+- Open Graph + Twitter card tags on every page; JSON-LD Product schema on product pages, BreadcrumbList on product/category pages, Organization + WebSite on the homepage, FAQPage on the FAQ page.
+- Canonical links on every page; `sitemap.xml` (117 URLs) + `robots.txt`.
+- Product images carry descriptive alt text (name + size) and width/height attributes; below-fold images load lazily.
+- Still placeholders for the client: shipping rates and delivery times (marked “to be confirmed by the store” on the shipping and FAQ pages), the store contact email (marked on the contact page), EUR pricing, and the returns policy.
 
 ## Deploy
 
-- GitHub Pages: enable Pages on the `main` branch (root). The site is static, so it serves as-is.
+- GitHub Pages: enabled on the `main` branch (root). Live at https://clarenceatim.github.io/peptide-store/ — the site is static, so it serves as-is.
 - Vercel: import the repo, no build command, no environment variables.
 
 ## Still needed from the client

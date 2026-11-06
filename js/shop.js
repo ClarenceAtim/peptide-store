@@ -16,10 +16,103 @@ function escAttr(s) {
   return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
 }
 
-function productImage(product) {
+var SITE_URL = "https://clarenceatim.github.io/peptide-store";
+
+function absoluteUrl(path) {
+  return SITE_URL + "/" + path;
+}
+
+function setMeta(selector, attr, value) {
+  var el = document.querySelector(selector);
+  if (el) el.setAttribute(attr, value);
+}
+
+function setPageSeo(opts) {
+  if (opts.title) document.title = opts.title;
+  if (opts.description) setMeta('meta[name="description"]', "content", opts.description);
+  if (opts.canonical) setMeta("#canonical-link", "href", opts.canonical);
+  if (opts.ogTitle) setMeta("#og-title", "content", opts.ogTitle);
+  if (opts.ogDescription) setMeta("#og-description", "content", opts.ogDescription);
+  if (opts.ogUrl) setMeta("#og-url", "content", opts.ogUrl);
+  if (opts.ogImage) setMeta("#og-image", "content", opts.ogImage);
+  if (opts.twitterTitle) setMeta("#twitter-title", "content", opts.twitterTitle);
+  if (opts.twitterDescription) setMeta("#twitter-description", "content", opts.twitterDescription);
+  if (opts.jsonLd) {
+    var old = document.getElementById("jsonld");
+    if (old) old.remove();
+    var s = document.createElement("script");
+    s.type = "application/ld+json";
+    s.id = "jsonld";
+    s.textContent = JSON.stringify(opts.jsonLd);
+    document.head.appendChild(s);
+  }
+}
+
+function minPrice(product) {
+  return Math.min.apply(null, product.variants.map(function (v) { return v.price; }));
+}
+
+var CATEGORY_INTROS = {
+  healing: "The Healing range lists the peptides grouped under Healing in this catalog. They are supplied as lyophilized powder in sealed glass vials, in a range of sizes.",
+  growth: "The Growth / Secretagogues range lists the peptides grouped under growth and secretagogue research in this catalog. They are supplied as lyophilized powder in sealed glass vials, in a range of sizes.",
+  cognitive: "The Cognitive range lists the peptides grouped under cognitive research in this catalog. They are supplied as lyophilized powder in sealed glass vials, in a range of sizes.",
+  tanning: "The Tanning range lists Melanotan I, Melanotan II and PT-141 (Bremelanotide), supplied as lyophilized powder in sealed glass vials for laboratory research.",
+  cellular: "The Cellular range lists the peptides grouped under cellular research in this catalog. They are supplied as lyophilized powder in sealed glass vials, in a range of sizes.",
+  bundles: "Bundles combine two or three products from the range in a single listing, supplied as lyophilized powder in sealed glass vials for laboratory research."
+};
+
+function productSeo(product, categoryLabel) {
+  var first = product.variants[0];
+  var title = product.name + " " + first.label + " — Peptide Store";
+  var desc = product.description + " Price " + money(minPrice(product)) + " in US dollars. For laboratory research use only. No account needed to buy.";
+  var url = absoluteUrl("product.html?id=" + product.id);
+  var img = absoluteUrl(product.image || FALLBACK_IMAGES[product.category] || FALLBACK_IMAGES.healing);
+  setPageSeo({
+    title: title,
+    description: desc,
+    canonical: url,
+    ogTitle: title,
+    ogDescription: desc,
+    ogUrl: url,
+    ogImage: img,
+    twitterTitle: title,
+    twitterDescription: desc,
+    jsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": product.name,
+        "description": product.description + " " + RESEARCH_NOTICE,
+        "image": img,
+        "category": categoryLabel,
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": minPrice(product),
+          "availability": "https://schema.org/InStock",
+          "url": url
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/"},
+          {"@type": "ListItem", "position": 2, "name": "Shop", "item": absoluteUrl("shop.html")},
+          {"@type": "ListItem", "position": 3, "name": categoryLabel, "item": absoluteUrl("category.html?cat=" + product.category)},
+          {"@type": "ListItem", "position": 4, "name": product.name, "item": url}
+        ]
+      }
+    ]
+  });
+}
+
+function productImage(product, w, h) {
   var src = product.image || FALLBACK_IMAGES[product.category] || FALLBACK_IMAGES.healing;
   var fallback = FALLBACK_IMAGES[product.category] || FALLBACK_IMAGES.healing;
-  return '<img src="' + src + '" alt="Photo of ' + escAttr(product.name) + ' vial" loading="lazy" onerror="this.onerror=null;this.src=\'' + fallback + '\'">';
+  var alt = product.name + " " + (product.variants[0] ? product.variants[0].label : "") + " — research peptide";
+  var size = (w && h) ? ' width="' + w + '" height="' + h + '"' : "";
+  return '<img src="' + src + '" alt="' + escAttr(alt) + '" loading="lazy"' + size + ' onerror="this.onerror=null;this.src=\'' + fallback + '\'">';
 }
 
 function money(n) {
@@ -46,7 +139,7 @@ function productCard(data, product) {
     priceNote = "per vial · prices in USD";
   }
   var html = '<article class="card">' +
-    '<div class="vial">' + productImage(product) + "</div>" +
+    '<div class="vial">' + productImage(product, 300, 190) + "</div>" +
     '<div class="card-body">' +
     '<span class="category-tag">' + categoryName(data, product.category) + "</span>" +
     '<h3><a href="product.html?id=' + product.id + '">' + product.name + "</a></h3>" +
@@ -72,7 +165,7 @@ function renderCategories(data) {
   if (!el) return;
   el.innerHTML = data.categories.map(function (c) {
     var count = data.products.filter(function (p) { return p.category === c.id; }).length;
-    return '<a class="cat-tile" href="shop.html?category=' + c.id + '"><h3>' + c.name + "</h3><p>" + count + " product" + (count === 1 ? "" : "s") + "</p></a>";
+    return '<a class="cat-tile" href="category.html?cat=' + c.id + '"><h3>' + c.name + "</h3><p>" + count + " product" + (count === 1 ? "" : "s") + "</p></a>";
   }).join("");
 }
 
@@ -87,12 +180,24 @@ function renderShop(data) {
   var filterRow = document.getElementById("filter-row");
   var countEl = document.getElementById("shop-count");
 
+  var sortEl = document.getElementById("shop-sort");
+  var sortVal = "featured";
+  if (sortEl) {
+    sortEl.addEventListener("change", function () {
+      sortVal = sortEl.value;
+      draw();
+    });
+  }
+
   function draw() {
     var list = data.products.filter(function (p) {
       var okCat = activeCat === "all" || p.category === activeCat;
       var okQ = !query || p.name.toLowerCase().indexOf(query) !== -1;
       return okCat && okQ;
     });
+    if (sortVal === "price-asc") list.sort(function (a, b) { return minPrice(a) - minPrice(b); });
+    else if (sortVal === "price-desc") list.sort(function (a, b) { return minPrice(b) - minPrice(a); });
+    else if (sortVal === "name-asc") list.sort(function (a, b) { return a.name.localeCompare(b.name); });
     grid.innerHTML = list.length ? list.map(function (p) { return productCard(data, p); }).join("") :
       "<p>No products match your search. Try a different name or category.</p>";
     if (countEl) countEl.textContent = list.length + " of " + data.products.length + " products";
@@ -101,7 +206,8 @@ function renderShop(data) {
   if (filterRow) {
     var buttons = [{ id: "all", name: "All" }].concat(data.categories);
     filterRow.innerHTML = buttons.map(function (b) {
-      return '<button class="filter-btn' + (b.id === activeCat ? " active" : "") + '" data-cat="' + b.id + '">' + b.name + "</button>";
+      var n = b.id === "all" ? data.products.length : data.products.filter(function (p) { return p.category === b.id; }).length;
+      return '<button class="filter-btn' + (b.id === activeCat ? " active" : "") + '" data-cat="' + b.id + '">' + b.name + " (" + n + ")</button>";
     }).join("");
     filterRow.addEventListener("click", function (e) {
       var btn = e.target.closest("[data-cat]");
@@ -152,10 +258,13 @@ function renderProduct(data) {
       '<div class="variant-list">' + variantBtns + "</div>";
   }
 
+  var catLabel = categoryName(data, product.category);
+  productSeo(product, catLabel);
   el.innerHTML =
-    '<div class="vial">' + productImage(product) + "</div>" +
+    '<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="shop.html">Shop</a> / <a href="category.html?cat=' + product.category + '">' + catLabel + '</a> / ' + product.name + "</nav>" +
+    '<div class="vial">' + productImage(product, 340, 320) + "</div>" +
     '<div>' +
-    '<span class="category-tag">' + categoryName(data, product.category) + "</span>" +
+    '<span class="category-tag">' + catLabel + "</span>" +
     "<h1>" + product.name + "</h1>" +
     "<p>" + product.description + "</p>" +
     '<table class="spec-table">' +
@@ -188,6 +297,65 @@ function renderProduct(data) {
   });
 }
 
+function renderCategory(data) {
+  var wrap = document.getElementById("category-page");
+  if (!wrap) return;
+  var params = new URLSearchParams(window.location.search);
+  var cat = data.categories.filter(function (x) { return x.id === params.get("cat"); })[0];
+  var titleEl = document.getElementById("category-title");
+  var introEl = document.getElementById("category-intro");
+  var countEl = document.getElementById("category-count");
+  var gridEl = document.getElementById("category-product-grid");
+  var crumbsEl = document.getElementById("category-crumbs");
+  if (!cat) {
+    if (titleEl) titleEl.textContent = "Category not found";
+    if (introEl) introEl.textContent = "This category does not exist. Browse the full shop instead.";
+    if (gridEl) gridEl.innerHTML = "<p><a class='btn' href='shop.html'>Browse all products</a></p>";
+    return;
+  }
+  var list = data.products.filter(function (p) { return p.category === cat.id; });
+  var prices = list.reduce(function (acc, p) { return acc.concat(p.variants.map(function (v) { return v.price; })); }, []);
+  var minP = Math.min.apply(null, prices);
+  var maxP = Math.max.apply(null, prices);
+  if (titleEl) titleEl.textContent = cat.name + " research peptides";
+  if (introEl) introEl.textContent = (CATEGORY_INTROS[cat.id] || "") + " This range has " + list.length + " product" + (list.length === 1 ? "" : "s") + ", priced from " + money(minP) + " to " + money(maxP) + " in US dollars. All products are for laboratory research use only.";
+  if (countEl) countEl.textContent = list.length + " product" + (list.length === 1 ? "" : "s");
+  if (crumbsEl) crumbsEl.innerHTML = '<a href="index.html">Home</a> / <a href="shop.html">Shop</a> / ' + cat.name;
+  if (gridEl) gridEl.innerHTML = list.map(function (p) { return productCard(data, p); }).join("");
+  var desc = list.length + " " + cat.name.toLowerCase() + " research peptides, priced from " + money(minP) + " to " + money(maxP) + " in US dollars. For laboratory research use only. No account needed to buy.";
+  var url = absoluteUrl("category.html?cat=" + cat.id);
+  setPageSeo({
+    title: cat.name + " Research Peptides — Peptide Store",
+    description: desc,
+    canonical: url,
+    ogTitle: cat.name + " Research Peptides — Peptide Store",
+    ogDescription: desc,
+    ogUrl: url,
+    ogImage: absoluteUrl(list[0].image || FALLBACK_IMAGES[cat.id] || FALLBACK_IMAGES.healing),
+    twitterTitle: cat.name + " Research Peptides — Peptide Store",
+    twitterDescription: desc,
+    jsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/"},
+          {"@type": "ListItem", "position": 2, "name": "Shop", "item": absoluteUrl("shop.html")},
+          {"@type": "ListItem", "position": 3, "name": cat.name, "item": url}
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": cat.name + " research peptides",
+        "itemListElement": list.map(function (p, i) {
+          return {"@type": "ListItem", "position": i + 1, "item": {"@type": "Product", "name": p.name, "url": absoluteUrl("product.html?id=" + p.id)}};
+        })
+      }
+    ]
+  });
+}
+
 function renderCurrencyNotes(data) {
   document.querySelectorAll("[data-currency-note]").forEach(function (el) {
     el.textContent = data.currencyNote;
@@ -201,6 +369,7 @@ function initShop() {
     renderCategories(data);
     renderShop(data);
     renderProduct(data);
+    renderCategory(data);
     updateCartCount();
   }).catch(function () {
     var grid = document.getElementById("shop-grid") || document.getElementById("featured-grid");

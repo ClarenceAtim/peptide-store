@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://clarenceatim.github.io/peptide-store/sitemap.xml
