@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout — Peptide Store</title>
+<meta name="description" content="Guest checkout at Peptide Store. No account, no login — just your delivery address.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="index.html">Peptide <span>Store</span></a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html" class="cart-link">Cart <span class="cart-count" data-cart-count>0</span></a>
+    </nav>
+  </div>
+</header>
+<div class="guest-note">
+  <div class="container">Guest checkout — no account, no login. Delivery across Europe.</div>
+</div>
+
+<main class="container">
+  <div class="form-card">
+    <h1>Guest checkout</h1>
+    <p class="lead">No account is created. Your details are used only to fulfil this order. This is an order request — no payment is taken here. The store will email you payment details (bank transfer or crypto) and confirm shipping.</p>
+    <div id="checkout-summary"></div>
+    <form id="checkout-form" novalidate>
+      <div class="form-grid">
+        <div class="form-field">
+          <label for="full-name">Full name *</label>
+          <input type="text" id="full-name" name="full-name" autocomplete="name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email address *</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+          <span class="hint">Your order reference and payment details will be sent here.</span>
+        </div>
+        <div class="form-field">
+          <label for="phone">Phone (optional)</label>
+          <input type="tel" id="phone" name="phone" autocomplete="tel">
+        </div>
+        <div class="form-field">
+          <label for="address-1">Street address *</label>
+          <input type="text" id="address-1" name="address-1" autocomplete="address-line1" required>
+        </div>
+        <div class="form-field">
+          <label for="address-2">Apartment, suite, etc. (optional)</label>
+          <input type="text" id="address-2" name="address-2" autocomplete="address-line2">
+        </div>
+        <div class="form-field">
+          <label for="city">City / Town *</label>
+          <input type="text" id="city" name="city" autocomplete="address-level2" required>
+        </div>
+        <div class="form-field">
+          <label for="postcode">Postcode *</label>
+          <input type="text" id="postcode" name="postcode" autocomplete="postal-code" required>
+        </div>
+        <div class="form-field">
+          <label for="country">Country *</label>
+          <select id="country" name="country" autocomplete="country-name" required>
+            <option value="">Select a country</option>
+            <option>Albania</option>
+            <option>Andorra</option>
+            <option>Austria</option>
+            <option>Belarus</option>
+            <option>Belgium</option>
+            <option>Bosnia and Herzegovina</option>
+            <option>Bulgaria</option>
+            <option>Croatia</option>
+            <option>Cyprus</option>
+            <option>Czech Republic</option>
+            <option>Denmark</option>
+            <option>Estonia</option>
+            <option>Finland</option>
+            <option>France</option>
+            <option>Germany</option>
+            <option>Greece</option>
+            <option>Hungary</option>
+            <option>Iceland</option>
+            <option>Ireland</option>
+            <option>Italy</option>
+            <option>Kosovo</option>
+            <option>Latvia</option>
+            <option>Liechtenstein</option>
+            <option>Lithuania</option>
+            <option>Luxembourg</option>
+            <option>Malta</option>
+            <option>Moldova</option>
+            <option>Monaco</option>
+            <option>Montenegro</option>
+            <option>Netherlands</option>
+            <option>North Macedonia</option>
+            <option>Norway</option>
+            <option>Poland</option>
+            <option>Portugal</option>
+            <option>Romania</option>
+            <option>San Marino</option>
+            <option>Serbia</option>
+            <option>Slovakia</option>
+            <option>Slovenia</option>
+            <option>Spain</option>
+            <option>Sweden</option>
+            <option>Switzerland</option>
+            <option>Ukraine</option>
+            <option>United Kingdom</option>
+            <option>Vatican City</option>
+          </select>
+          <span class="hint">Delivery is across Europe. If your country is not listed, contact the store.</span>
+        </div>
+        <div class="form-field full">
+          <label for="notes">Delivery notes (optional)</label>
+          <textarea id="notes" name="notes" rows="3"></textarea>
+        </div>
+        <div class="form-field full checkbox-field">
+          <input type="checkbox" id="terms-agree" required>
+          <label for="terms-agree">I understand these products are for laboratory research use only, not for human or animal use, and I agree to the <a href="terms.html">terms of sale</a>. *</label>
+        </div>
+      </div>
+      <p class="form-error" id="checkout-error"></p>
+      <p style="margin-top: 18px;"><button class="btn" type="submit">Place order request</button></p>
+      <p class="currency-note" style="margin-top: 10px;">Prices are shown in US dollars (USD). Euro (EUR) pricing will be set by the store. Shipping costs are confirmed by email when your order is confirmed.</p>
+    </form>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Peptide Store</h4>
+        <p>Laboratory research peptides, delivered across Europe. No account needed to buy.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html">All products</a></li>
+          <li><a href="shop.html?category=healing">Healing</a></li>
+          <li><a href="shop.html?category=growth">Growth / Secretagogues</a></li>
+          <li><a href="shop.html?category=cognitive">Cognitive</a></li>
+          <li><a href="shop.html?category=tanning">Tanning</a></li>
+          <li><a href="shop.html?category=cellular">Cellular</a></li>
+          <li><a href="shop.html?category=bundles">Bundles</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Information</h4>
+        <ul>
+          <li><a href="terms.html">Terms of sale</a></li>
+          <li><a href="privacy.html">Privacy notice</a></li>
+          <li><a href="cart.html">Your cart</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      For laboratory research use only. Not for human or animal use. Not a drug, food, dietary supplement, or cosmetic. Not intended to diagnose, treat, cure, or prevent any disease.
+    </div>
+  </div>
+</footer>
+<script src="js/cart.js"></script>
+</body>
+</html>
