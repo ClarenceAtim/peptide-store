@@ -129,22 +129,69 @@ function renderCheckout() {
     form.dataset.total = total;
   });
 
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
-    var errorEl = document.getElementById("checkout-error");
+  var errorEl = document.getElementById("checkout-error");
+  var emailEl = document.getElementById("email");
+  var detailsEl = document.getElementById("checkout-details");
+  var payStep = document.getElementById("payment-step");
+  var continueRow = document.getElementById("checkout-continue-row");
+  var continueBtn = document.getElementById("checkout-continue");
+  var backBtn = document.getElementById("payment-back");
+
+  function showDetailsStep() {
+    if (detailsEl) detailsEl.style.display = "";
+    if (continueRow) continueRow.style.display = "";
+    if (payStep) payStep.style.display = "none";
+    if (detailsEl) detailsEl.scrollIntoView();
+  }
+
+  function validateDetails() {
     var required = ["full-name", "email", "address-1", "city", "postcode", "country"];
     var missing = required.filter(function (id) {
       var el = document.getElementById(id);
       return !el || !el.value.trim();
     });
-    var emailEl = document.getElementById("email");
     var emailOk = emailEl && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailEl.value.trim());
     var termsOk = document.getElementById("terms-agree") && document.getElementById("terms-agree").checked;
     if (missing.length || !emailOk || !termsOk) {
       errorEl.style.display = "block";
       errorEl.textContent = "Please complete all required fields, enter a valid email address, and tick the research-use agreement.";
+      return false;
+    }
+    errorEl.style.display = "none";
+    return true;
+  }
+
+  if (continueBtn) {
+    continueBtn.addEventListener("click", function () {
+      if (!validateDetails()) return;
+      if (detailsEl) detailsEl.style.display = "none";
+      if (continueRow) continueRow.style.display = "none";
+      if (payStep) {
+        payStep.style.display = "block";
+        payStep.scrollIntoView();
+      }
+    });
+  }
+  if (backBtn) {
+    backBtn.addEventListener("click", function () {
+      showDetailsStep();
+    });
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (!validateDetails()) {
+      showDetailsStep();
       return;
     }
+    var chosen = form.querySelector('input[name="payment-method"]:checked');
+    var payError = document.getElementById("payment-error");
+    if (!chosen) {
+      payError.style.display = "block";
+      payError.textContent = "Please choose a payment method.";
+      return;
+    }
+    if (payError) payError.style.display = "none";
     var order = {
       ref: orderReference(),
       date: new Date().toISOString(),
@@ -157,6 +204,7 @@ function renderCheckout() {
       postcode: document.getElementById("postcode").value.trim(),
       country: document.getElementById("country").value,
       notes: (document.getElementById("notes").value || "").trim(),
+      paymentMethod: chosen.value,
       items: getCart(),
       total: parseFloat(form.dataset.total || "0")
     };
@@ -165,6 +213,20 @@ function renderCheckout() {
     updateCartCount();
     window.location.href = "confirmation.html?ref=" + order.ref;
   });
+}
+
+var PAY_METHODS = {
+  bank: { label: "Bank transfer", detail: "the bank details" },
+  btc: { label: "Bitcoin (BTC)", detail: "the Bitcoin wallet address" },
+  usdt: { label: "USDT (Tether)", detail: "the USDT wallet address" }
+};
+
+function payMethodLabel(code) {
+  return (PAY_METHODS[code] && PAY_METHODS[code].label) || "your chosen method";
+}
+
+function payDetailText(code) {
+  return (PAY_METHODS[code] && PAY_METHODS[code].detail) || "the payment details";
 }
 
 function renderConfirmation() {
@@ -187,12 +249,13 @@ function renderConfirmation() {
     }).join("");
     box.innerHTML =
       "<h1>Thank you, " + order.name.split(" ")[0] + "</h1>" +
-      "<p>Your order request has been received. The store will email payment details to <strong>" + order.email + "</strong>.</p>" +
+      "<p>Your order request has been received. The store will email " + payDetailText(order.paymentMethod) + " to <strong>" + order.email + "</strong>.</p>" +
       '<div class="order-ref">' + order.ref + "</div>" +
+      "<p><strong>Payment method:</strong> " + payMethodLabel(order.paymentMethod) + "</p>" +
       '<div class="order-lines"><table>' + lines +
       "<tr><td><strong>Total</strong></td><td><strong>" + money(order.total) + "</strong></td></tr></table></div>" +
       "<p style='margin-top:16px'><strong>Deliver to:</strong><br>" + order.address1 + (order.address2 ? ", " + order.address2 : "") + "<br>" + order.city + ", " + order.postcode + ", " + order.country + "</p>" +
-      "<p style='margin-top:16px'>This is an order request — no payment has been taken. The store will email you payment details (bank transfer or crypto) and confirm shipping. Please keep your order reference above.</p>" +
+      "<p style='margin-top:16px'>This is an order request — no payment has been taken. The store will email you " + payDetailText(order.paymentMethod) + " and confirm shipping. Please keep your order reference above.</p>" +
       "<p style='margin-top:16px'><a class='btn' href='shop.html'>Continue shopping</a></p>";
   });
 }
@@ -203,3 +266,4 @@ document.addEventListener("DOMContentLoaded", function () {
   renderCheckout();
   renderConfirmation();
 });
+
