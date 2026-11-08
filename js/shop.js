@@ -75,7 +75,7 @@ var CATEGORY_INTROS = {
 function productSeo(product, categoryLabel) {
   var first = product.variants[0];
   var title = product.name + " " + first.label + " — Peptide Store";
-  var desc = product.description + " Price " + money(minPrice(product)) + " in US dollars. For laboratory research use only. No account needed to buy.";
+  var desc = product.description + " Price " + money(minPrice(product)) + " in euros. For laboratory research use only. No account needed to buy.";
   var url = absoluteUrl("product.html?id=" + product.id);
   var img = absoluteUrl(product.image || FALLBACK_IMAGES[product.category] || FALLBACK_IMAGES.healing);
   setPageSeo({
@@ -98,7 +98,7 @@ function productSeo(product, categoryLabel) {
         "category": categoryLabel,
         "offers": {
           "@type": "Offer",
-          "priceCurrency": "USD",
+          "priceCurrency": "EUR",
           "price": minPrice(product),
           "availability": "https://schema.org/InStock",
           "url": url
@@ -127,7 +127,7 @@ function productImage(product, w, h) {
 }
 
 function money(n) {
-  return "$" + n.toFixed(2);
+  return "€" + n.toFixed(2);
 }
 
 function loadProducts() {
@@ -143,11 +143,11 @@ function productCard(data, product) {
   var priceLine, priceNote;
   if (product.variants.length === 1) {
     priceLine = money(product.variants[0].price);
-    priceNote = product.variants[0].label + " · prices in USD";
+    priceNote = product.variants[0].label + " · prices in EUR";
   } else {
     var from = Math.min.apply(null, product.variants.map(function (v) { return v.price; }));
     priceLine = "from " + money(from);
-    priceNote = "per vial · prices in USD";
+    priceNote = "per vial · prices in EUR";
   }
   var html = '<article class="card">' +
     '<div class="vial">' + productImage(product, 300, 190) + "</div>" +
@@ -290,7 +290,7 @@ function renderProduct(data) {
     '<input type="number" id="pd-qty" value="1" min="1" max="99">' +
     '<button class="btn" id="pd-add">Add to cart</button></div>' +
     waButton(product.name) +
-    '<p class="currency-note">Prices are shown in US dollars (USD). Euro (EUR) pricing will be set by the store.</p>' +
+    '<p class="currency-note">Prices are shown in euros (EUR).</p>' +
     '<div class="notice"><strong>Research use only.</strong> ' + RESEARCH_NOTICE + "</div>" +
     "</div>";
 
@@ -331,11 +331,11 @@ function renderCategory(data) {
   var minP = Math.min.apply(null, prices);
   var maxP = Math.max.apply(null, prices);
   if (titleEl) titleEl.textContent = cat.name + " research peptides";
-  if (introEl) introEl.textContent = (CATEGORY_INTROS[cat.id] || "") + " This range has " + list.length + " product" + (list.length === 1 ? "" : "s") + ", priced from " + money(minP) + " to " + money(maxP) + " in US dollars. All products are for laboratory research use only.";
+  if (introEl) introEl.textContent = (CATEGORY_INTROS[cat.id] || "") + " This range has " + list.length + " product" + (list.length === 1 ? "" : "s") + ", priced from " + money(minP) + " to " + money(maxP) + " in euros. All products are for laboratory research use only.";
   if (countEl) countEl.textContent = list.length + " product" + (list.length === 1 ? "" : "s");
   if (crumbsEl) crumbsEl.innerHTML = '<a href="index.html">Home</a> / <a href="shop.html">Shop</a> / ' + cat.name;
   if (gridEl) gridEl.innerHTML = list.map(function (p) { return productCard(data, p); }).join("");
-  var desc = list.length + " " + cat.name.toLowerCase() + " research peptides, priced from " + money(minP) + " to " + money(maxP) + " in US dollars. For laboratory research use only. No account needed to buy.";
+  var desc = list.length + " " + cat.name.toLowerCase() + " research peptides, priced from " + money(minP) + " to " + money(maxP) + " in euros. For laboratory research use only. No account needed to buy.";
   var url = absoluteUrl("category.html?cat=" + cat.id);
   setPageSeo({
     title: cat.name + " Research Peptides — Peptide Store",
