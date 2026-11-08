@@ -4,6 +4,7 @@
 
 var CART_KEY = "peptide-store-cart";
 var ORDER_KEY = "peptide-store-last-order";
+var MIN_ORDER = 100;
 
 function getCart() {
   try { return JSON.parse(localStorage.getItem(CART_KEY)) || []; }
@@ -68,13 +69,23 @@ function renderCart() {
         "<td><button class='remove-link' data-remove='" + i + "'>Remove</button></td>" +
         "</tr>";
     });
+    total = Math.round(total * 100) / 100;
+    var minNote = "";
+    var checkoutBtn = "";
+    if (total >= MIN_ORDER) {
+      minNote = '<p class="price-note">Minimum order: ' + money(MIN_ORDER) + '.</p>';
+      checkoutBtn = '<p style="margin-top:12px"><a class="btn" href="checkout.html">Continue to checkout</a></p>';
+    } else {
+      minNote = '<p class="price-note"><strong>Minimum order is ' + money(MIN_ORDER) + '. Add ' + money(MIN_ORDER - total) + ' more to check out.</strong></p>';
+      checkoutBtn = '<p style="margin-top:12px"><span class="btn" aria-disabled="true" style="opacity:.5;pointer-events:none">Continue to checkout</span></p>';
+    }
     wrap.innerHTML =
       '<table class="cart-table"><thead><tr><th>Product</th><th>Price</th><th>Quantity</th><th>Subtotal</th><th></th></tr></thead><tbody>' + rows + "</tbody></table>" +
       '<div class="cart-summary"><div class="row"><span>Subtotal</span><span>' + money(total) + '</span></div>' +
       '<div class="row"><span>Shipping</span><span>Confirmed by email</span></div>' +
       '<div class="row total"><span>Total</span><span>' + money(total) + '</span></div>' +
       '<p class="price-note">Prices are shown in euros (EUR). Shipping costs are confirmed by email when your order is confirmed.</p>' +
-      '<p style="margin-top:12px"><a class="btn" href="checkout.html">Continue to checkout</a></p>' +
+      minNote + checkoutBtn +
       '<p style="margin-top:10px"><a href="shop.html">Continue shopping</a></p></div>';
 
     wrap.querySelectorAll("[data-qty]").forEach(function (input) {
@@ -123,26 +134,19 @@ function renderCheckout() {
       total += variant.price * item.qty;
       return "<tr><td>" + product.name + " — " + variant.label + " × " + item.qty + "</td><td>" + money(variant.price * item.qty) + "</td></tr>";
     }).join("");
+    total = Math.round(total * 100) / 100;
     summary.innerHTML = "<h2>Your order</h2><div class='order-lines'><table>" + lines +
       "<tr><td><strong>Total</strong></td><td><strong>" + money(total) + "</strong></td></tr></table></div>" +
       "<p class='price-note'>Prices are shown in euros (EUR). Shipping costs are confirmed by email when your order is confirmed.</p>";
     form.dataset.total = total;
+    if (total < MIN_ORDER) {
+      form.innerHTML = "<p>Your order totals <strong>" + money(total) + "</strong>. The minimum order is <strong>" + money(MIN_ORDER) + "</strong> — please add " + money(MIN_ORDER - total) + " more of products to your cart before checking out.</p>" +
+        "<p style='margin-top:12px'><a class='btn' href='shop.html'>Continue shopping</a> <a href='cart.html'>Back to your cart</a></p>";
+    }
   });
 
   var errorEl = document.getElementById("checkout-error");
   var emailEl = document.getElementById("email");
-  var detailsEl = document.getElementById("checkout-details");
-  var payStep = document.getElementById("payment-step");
-  var continueRow = document.getElementById("checkout-continue-row");
-  var continueBtn = document.getElementById("checkout-continue");
-  var backBtn = document.getElementById("payment-back");
-
-  function showDetailsStep() {
-    if (detailsEl) detailsEl.style.display = "";
-    if (continueRow) continueRow.style.display = "";
-    if (payStep) payStep.style.display = "none";
-    if (detailsEl) detailsEl.scrollIntoView();
-  }
 
   function validateDetails() {
     var required = ["full-name", "email", "address-1", "city", "postcode", "country"];
@@ -161,29 +165,16 @@ function renderCheckout() {
     return true;
   }
 
-  if (continueBtn) {
-    continueBtn.addEventListener("click", function () {
-      if (!validateDetails()) return;
-      if (detailsEl) detailsEl.style.display = "none";
-      if (continueRow) continueRow.style.display = "none";
-      if (payStep) {
-        payStep.style.display = "block";
-        payStep.scrollIntoView();
-      }
-    });
-  }
-  if (backBtn) {
-    backBtn.addEventListener("click", function () {
-      showDetailsStep();
-    });
-  }
-
   form.addEventListener("submit", function (e) {
     e.preventDefault();
-    if (!validateDetails()) {
-      showDetailsStep();
+    if (parseFloat(form.dataset.total || "0") < MIN_ORDER) {
+      if (errorEl) {
+        errorEl.style.display = "block";
+        errorEl.textContent = "The minimum order is " + money(MIN_ORDER) + ". Please add more products to your cart before checking out.";
+      }
       return;
     }
+    if (!validateDetails()) return;
     var chosen = form.querySelector('input[name="payment-method"]:checked');
     var payError = document.getElementById("payment-error");
     if (!chosen) {
