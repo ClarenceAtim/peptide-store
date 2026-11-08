@@ -1,2039 +1,2514 @@
 {
-  "store": "Peptide Store",
-  "currency": "USD",
-  "currencyNote": "Prices are shown in US dollars (USD). Euro (EUR) pricing will be set by the store.",
-  "categories": [
+ "store": "Peptide Store",
+ "currency": "EUR",
+ "currencyNote": "Prices are shown in euros (EUR).",
+ "categories": [
+  {
+   "id": "healing",
+   "name": "Healing"
+  },
+  {
+   "id": "growth",
+   "name": "Growth / Secretagogues"
+  },
+  {
+   "id": "cognitive",
+   "name": "Cognitive"
+  },
+  {
+   "id": "tanning",
+   "name": "Tanning"
+  },
+  {
+   "id": "cellular",
+   "name": "Cellular"
+  },
+  {
+   "id": "bundles",
+   "name": "Bundles"
+  }
+ ],
+ "products": [
+  {
+   "id": "glutathione-1500mg",
+   "name": "Glutathione",
+   "label": "Glutathione",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Glutathione supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
     {
-      "id": "healing",
-      "name": "Healing"
-    },
-    {
-      "id": "growth",
-      "name": "Growth / Secretagogues"
-    },
-    {
-      "id": "cognitive",
-      "name": "Cognitive"
-    },
-    {
-      "id": "tanning",
-      "name": "Tanning"
-    },
-    {
-      "id": "cellular",
-      "name": "Cellular"
-    },
-    {
-      "id": "bundles",
-      "name": "Bundles"
+     "label": "1500 mg vial",
+     "mg": 1500,
+     "price": 49.37
     }
-  ],
-  "products": [
-    {
-      "id": "glutathione-1500mg",
-      "name": "Glutathione",
-      "label": "Glutathione",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Glutathione supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "1500 mg vial",
-          "mg": 1500,
-          "price": 55.0
-        }
-      ],
-      "image": "images/products/glutathione-vial.png"
-    },
-    {
-      "id": "nad-plus-1000mg",
-      "name": "NAD+",
-      "label": "NAD+",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "NAD+ supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "1000 mg vial",
-          "mg": 1000,
-          "price": 110.0
-        }
-      ],
-      "image": "images/products/nad-plus-scene.webp"
-    },
-    {
-      "id": "nad-plus-500mg",
-      "name": "NAD+",
-      "label": "NAD+",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "NAD+ supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "500 mg vial",
-          "mg": 500,
-          "price": 80.0
-        }
-      ],
-      "image": "images/products/nad-plus-scene.webp"
-    },
-    {
-      "id": "nad-plus-100mg",
-      "name": "NAD+",
-      "label": "NAD+",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "NAD+ supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "100 mg vial",
-          "mg": 100,
-          "price": 40.0
-        }
-      ],
-      "image": "images/products/nad-plus-scene.webp"
-    },
-    {
-      "id": "ghk-cu-100mg",
-      "name": "GHK-Cu",
-      "label": "GHK-Cu",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "GHK-Cu supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "100 mg vial",
-          "mg": 100,
-          "price": 59.0
-        }
-      ],
-      "image": "images/products/ghk-cu-vial.png"
-    },
-    {
-      "id": "cerebrolysin-60mg",
-      "name": "Cerebrolysin",
-      "label": "Cerebrolysin",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Cerebrolysin supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "60 mg vial",
-          "mg": 60,
-          "price": 50.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "ghk-cu-50mg",
-      "name": "GHK-Cu",
-      "label": "GHK-Cu",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "GHK-Cu supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "50 mg vial",
-          "mg": 50,
-          "price": 49.0
-        }
-      ],
-      "image": "images/products/ghk-cu-vial.png"
-    },
-    {
-      "id": "ahk-cu-50mg",
-      "name": "AHK-Cu",
-      "label": "AHK-Cu",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "AHK-Cu supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "50 mg vial",
-          "mg": 50,
-          "price": 60.0
-        }
-      ],
-      "image": "images/products/ghk-cu-vial.png"
-    },
-    {
-      "id": "epithalon-50mg",
-      "name": "Epithalon",
-      "label": "Epithalon",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Epithalon supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "50 mg vial",
-          "mg": 50,
-          "price": 109.0
-        }
-      ],
-      "image": "images/products/epitalon-scene.webp"
-    },
-    {
-      "id": "semax-30mg",
-      "name": "Semax",
-      "label": "Semax",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Semax supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "30 mg vial",
-          "mg": 30,
-          "price": 69.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "mots-c-40mg",
-      "name": "MOTS-c",
-      "label": "MOTS-c",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "MOTS-c supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "40 mg vial",
-          "mg": 40,
-          "price": 100.0
-        }
-      ],
-      "image": "images/products/mots-c-scene.webp"
-    },
-    {
-      "id": "selank-30mg",
-      "name": "Selank",
-      "label": "Selank",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Selank supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "30 mg vial",
-          "mg": 30,
-          "price": 79.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "melanotan-ii-10mg",
-      "name": "Melanotan II",
-      "label": "MT-II",
-      "category": "tanning",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Melanotan II supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 35.0
-        }
-      ],
-      "image": "images/products/tb-500-vial.png"
-    },
-    {
-      "id": "mots-c-20mg",
-      "name": "MOTS-c",
-      "label": "MOTS-c",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "MOTS-c supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "20 mg vial",
-          "mg": 20,
-          "price": 75.0
-        }
-      ],
-      "image": "images/products/mots-c-scene.webp"
-    },
-    {
-      "id": "semax-10mg",
-      "name": "Semax",
-      "label": "Semax",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Semax supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 39.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "bronchogen-20mg",
-      "name": "Bronchogen",
-      "label": "Bronchogen",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Bronchogen supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "20 mg vial",
-          "mg": 20,
-          "price": 80.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "epithalon-10mg",
-      "name": "Epithalon",
-      "label": "Epithalon",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Epithalon supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 40.0
-        }
-      ],
-      "image": "images/products/epitalon-scene.webp"
-    },
-    {
-      "id": "melanotan-i-10mg",
-      "name": "Melanotan I",
-      "label": "MT-I",
-      "category": "tanning",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Melanotan I supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 40.0
-        }
-      ],
-      "image": "images/products/tb-500-vial.png"
-    },
-    {
-      "id": "pt-141-10mg",
-      "name": "PT-141 (Bremelanotide)",
-      "label": "PT-141",
-      "category": "tanning",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "PT-141 (Bremelanotide) supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 40.0
-        }
-      ],
-      "image": "images/products/tb-500-vial.png"
-    },
-    {
-      "id": "ss-31-50mg",
-      "name": "SS-31",
-      "label": "SS-31",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "SS-31 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "50 mg vial",
-          "mg": 50,
-          "price": 209.0
-        }
-      ],
-      "image": "images/products/ss-31-scene.webp"
-    },
-    {
-      "id": "cardiogen-20mg",
-      "name": "Cardiogen",
-      "label": "Cardiogen",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Cardiogen supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "20 mg vial",
-          "mg": 20,
-          "price": 85.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "cartalax-20mg",
-      "name": "Cartalax",
-      "label": "Cartalax",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Cartalax supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "20 mg vial",
-          "mg": 20,
-          "price": 85.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "cortagen-20mg",
-      "name": "Cortagen",
-      "label": "Cortagen",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Cortagen supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "20 mg vial",
-          "mg": 20,
-          "price": 85.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "pinealon-20mg",
-      "name": "Pinealon",
-      "label": "Pinealon",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Pinealon supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "20 mg vial",
-          "mg": 20,
-          "price": 85.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "selank-10mg",
-      "name": "Selank",
-      "label": "Selank",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Selank supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 44.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "oxytocin-10mg",
-      "name": "Oxytocin Acetate",
-      "label": "Oxytocin",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Oxytocin Acetate supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 45.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "kpv-10mg",
-      "name": "KPV",
-      "label": "KPV",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "KPV supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 49.0
-        }
-      ],
-      "image": "images/products/kpv-scene.webp"
-    },
-    {
-      "id": "ghrp-2-15mg",
-      "name": "GHRP-2",
-      "label": "GHRP-2",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "GHRP-2 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "15 mg vial",
-          "mg": 15,
-          "price": 80.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "dsip-10mg",
-      "name": "DSIP",
-      "label": "DSIP",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "DSIP supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 54.0
-        }
-      ],
-      "image": "images/products/dsip-scene.webp"
-    },
-    {
-      "id": "bpc-tb-blend-20mg",
-      "name": "BPC-157 + TB-500 Blend",
-      "label": "BPC + TB",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "A blend of BPC-157 and TB-500 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg + 10 mg (20 mg total)",
-          "mg": 20,
-          "price": 109.0
-        }
-      ],
-      "image": "images/products/bpc-tb-500-blend.png"
-    },
-    {
-      "id": "matrixyl-10mg",
-      "name": "Matrixyl",
-      "label": "Matrixyl",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Matrixyl supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 55.0
-        }
-      ],
-      "image": "images/products/bpc-157-vial.png"
-    },
-    {
-      "id": "bpc-157-10mg",
-      "name": "BPC-157",
-      "label": "BPC-157",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "BPC-157 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 59.0
-        }
-      ],
-      "image": "images/products/bpc-157-purerawz.webp"
-    },
-    {
-      "id": "ss-31-10mg",
-      "name": "SS-31",
-      "label": "SS-31",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "SS-31 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 59.0
-        }
-      ],
-      "image": "images/products/ss-31-scene.webp"
-    },
-    {
-      "id": "mots-c-10mg",
-      "name": "MOTS-c",
-      "label": "MOTS-c",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "MOTS-c supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 60.0
-        }
-      ],
-      "image": "images/products/mots-c-scene.webp"
-    },
-    {
-      "id": "pinealon-10mg",
-      "name": "Pinealon",
-      "label": "Pinealon",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Pinealon supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 60.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "vesugen-10mg",
-      "name": "Vesugen",
-      "label": "Vesugen",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Vesugen supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 60.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "ipamorelin-10mg",
-      "name": "Ipamorelin",
-      "label": "Ipamorelin",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Ipamorelin supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 65.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "cjc-ipa-20mg",
-      "name": "CJC-1295 + Ipamorelin Blend",
-      "label": "CJC + IPA",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "A blend of CJC-1295 (no DAC) and Ipamorelin supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "20 mg total",
-          "mg": 20,
-          "price": 135.0
-        }
-      ],
-      "featured": true,
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "cjc-1295-5mg",
-      "name": "CJC-1295 (no DAC)",
-      "label": "CJC-1295",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "CJC-1295 (no DAC) supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 34.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "semax-5mg",
-      "name": "Semax",
-      "label": "Semax",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Semax supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 34.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "ara-290-10mg",
-      "name": "ARA-290",
-      "label": "ARA-290",
-      "category": "cellular",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "ARA-290 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 70.0
-        }
-      ],
-      "image": "images/products/ara-290-vial.webp"
-    },
-    {
-      "id": "pe-22-28-10mg",
-      "name": "PE-22-28",
-      "label": "PE-22-28",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "PE-22-28 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 70.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "aod-9604-10mg",
-      "name": "AOD-9604",
-      "label": "AOD-9604",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "AOD-9604 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 75.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "ghrp-2-10mg",
-      "name": "GHRP-2",
-      "label": "GHRP-2",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "GHRP-2 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 75.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "ghrp-6-10mg",
-      "name": "GHRP-6",
-      "label": "GHRP-6",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "GHRP-6 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 75.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "sermorelin-10mg",
-      "name": "Sermorelin",
-      "label": "Sermorelin",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Sermorelin supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 75.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "tb-500-10mg",
-      "name": "TB-500",
-      "label": "TB-500",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "TB-500 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 75.0
-        }
-      ],
-      "image": "images/products/tb-500-vial.png"
-    },
-    {
-      "id": "tesamorelin-20mg",
-      "name": "Tesamorelin",
-      "label": "Tesamorelin",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Tesamorelin supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "20 mg vial",
-          "mg": 20,
-          "price": 150.0
-        }
-      ],
-      "image": "images/products/tesamorelin-vial.png"
-    },
-    {
-      "id": "kpv-5mg",
-      "name": "KPV",
-      "label": "KPV",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "KPV supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 39.0
-        }
-      ],
-      "image": "images/products/kpv-scene.webp"
-    },
-    {
-      "id": "selank-5mg",
-      "name": "Selank",
-      "label": "Selank",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Selank supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 39.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "cjc-ipa-10mg",
-      "name": "CJC-1295 + Ipamorelin Blend",
-      "label": "CJC + IPA",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "A blend of CJC-1295 (no DAC) and Ipamorelin supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg total",
-          "mg": 10,
-          "price": 79.0
-        }
-      ],
-      "featured": true,
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "oxytocin-5mg",
-      "name": "Oxytocin Acetate",
-      "label": "Oxytocin",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Oxytocin Acetate supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 40.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "tesamorelin-10mg",
-      "name": "Tesamorelin",
-      "label": "Tesamorelin",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Tesamorelin supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 80.0
-        }
-      ],
-      "image": "images/products/tesamorelin-vial.png"
-    },
-    {
-      "id": "thymalin-10mg",
-      "name": "Thymalin / Thymulin",
-      "label": "Thymalin",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Thymalin / Thymulin supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 80.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "bpc-tb-blend-10mg",
-      "name": "BPC-157 + TB-500 Blend",
-      "label": "BPC + TB",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "A blend of BPC-157 and TB-500 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg + 5 mg (10 mg total)",
-          "mg": 10,
-          "price": 85.0
-        }
-      ],
-      "featured": true,
-      "testing": "Independent laboratory testing published for this blend: 99.43% / 99.42% (MZ Biolabs, Tucson AZ).",
-      "image": "images/products/bpc-tb-500-blend.png"
-    },
-    {
-      "id": "cjc-1295-10mg",
-      "name": "CJC-1295 (no DAC)",
-      "label": "CJC-1295",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "CJC-1295 (no DAC) supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 85.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "kisspeptin-10-10mg",
-      "name": "Kisspeptin-10",
-      "label": "Kisspeptin",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Kisspeptin-10 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 85.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "aod-9604-5mg",
-      "name": "AOD-9604",
-      "label": "AOD-9604",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "AOD-9604 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 44.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "ipamorelin-5mg",
-      "name": "Ipamorelin",
-      "label": "Ipamorelin",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Ipamorelin supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 44.0
-        }
-      ],
-      "image": "images/products/ipamorelin-scene.webp"
-    },
-    {
-      "id": "ghrp-2-5mg",
-      "name": "GHRP-2",
-      "label": "GHRP-2",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "GHRP-2 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 45.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "ghrp-6-5mg",
-      "name": "GHRP-6",
-      "label": "GHRP-6",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "GHRP-6 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 45.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "tesamorelin-5mg",
-      "name": "Tesamorelin",
-      "label": "Tesamorelin",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Tesamorelin supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 45.0
-        }
-      ],
-      "image": "images/products/tesamorelin-vial.png"
-    },
-    {
-      "id": "bpc-157-5mg",
-      "name": "BPC-157",
-      "label": "BPC-157",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "BPC-157 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 49.0
-        }
-      ],
-      "featured": true,
-      "image": "images/products/bpc-157-vial.png"
-    },
-    {
-      "id": "dsip-5mg",
-      "name": "DSIP",
-      "label": "DSIP",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "DSIP supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 49.0
-        }
-      ],
-      "image": "images/products/dsip-scene.webp"
-    },
-    {
-      "id": "sermorelin-5mg",
-      "name": "Sermorelin",
-      "label": "Sermorelin",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Sermorelin supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 50.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "adipotide-10mg",
-      "name": "Adipotide (FTPP)",
-      "label": "Adipotide",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Adipotide (FTPP) supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 105.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "tb-500-5mg",
-      "name": "TB-500",
-      "label": "TB-500",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "TB-500 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 54.0
-        }
-      ],
-      "featured": true,
-      "image": "images/products/tb-500-scene.webp"
-    },
-    {
-      "id": "kisspeptin-10-5mg",
-      "name": "Kisspeptin-10",
-      "label": "Kisspeptin",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Kisspeptin-10 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 60.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "thymosin-alpha-1-10mg",
-      "name": "Thymosin Alpha-1",
-      "label": "Thymosin A1",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Thymosin Alpha-1 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 130.0
-        }
-      ],
-      "image": "images/products/bpc-157-vial.png"
-    },
-    {
-      "id": "vip-5mg",
-      "name": "VIP",
-      "label": "VIP",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "VIP supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 65.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "thymosin-alpha-1-5mg",
-      "name": "Thymosin Alpha-1",
-      "label": "Thymosin A1",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Thymosin Alpha-1 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 70.0
-        }
-      ],
-      "image": "images/products/bpc-157-vial.png"
-    },
-    {
-      "id": "vip-10mg",
-      "name": "VIP",
-      "label": "VIP",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "VIP supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 150.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "foxo4-dri-10mg",
-      "name": "FOXO4-DRI",
-      "label": "FOXO4-DRI",
-      "category": "cellular",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "FOXO4-DRI supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "10 mg vial",
-          "mg": 10,
-          "price": 175.0
-        }
-      ],
-      "image": "images/products/ara-290-vial.webp"
-    },
-    {
-      "id": "p21-5mg",
-      "name": "P21 (P021)",
-      "label": "P21",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "P21 (P021) supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 95.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "adipotide-5mg",
-      "name": "Adipotide (FTPP)",
-      "label": "Adipotide",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Adipotide (FTPP) supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 100.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "cjc-1295-dac-5mg",
-      "name": "CJC-1295 (with DAC)",
-      "label": "CJC + DAC",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "CJC-1295 (with DAC) supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 130.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "foxo4-dri-2mg",
-      "name": "FOXO4-DRI",
-      "label": "FOXO4-DRI",
-      "category": "cellular",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "FOXO4-DRI supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "2 mg vial",
-          "mg": 2,
-          "price": 55.0
-        }
-      ],
-      "image": "images/products/ara-290-vial.webp"
-    },
-    {
-      "id": "gonadorelin-2mg",
-      "name": "Gonadorelin Acetate",
-      "label": "Gonadorelin",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Gonadorelin Acetate supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "2 mg vial",
-          "mg": 2,
-          "price": 55.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "ll-37-5mg",
-      "name": "LL-37",
-      "label": "LL-37",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "LL-37 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 150.0
-        }
-      ],
-      "image": "images/products/bpc-157-vial.png"
-    },
-    {
-      "id": "snap-8-2mg",
-      "name": "SNAP-8",
-      "label": "SNAP-8",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "SNAP-8 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "2 mg vial",
-          "mg": 2,
-          "price": 65.0
-        }
-      ],
-      "image": "images/products/semax-scene.webp"
-    },
-    {
-      "id": "igf-1-des-2mg",
-      "name": "IGF-1 DES",
-      "label": "IGF-1 DES",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "IGF-1 DES supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "2 mg vial",
-          "mg": 2,
-          "price": 75.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "peg-mgf-2mg",
-      "name": "PEG-MGF",
-      "label": "PEG-MGF",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "PEG-MGF supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "2 mg vial",
-          "mg": 2,
-          "price": 80.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "ace-031-1mg",
-      "name": "ACE-031",
-      "label": "ACE-031",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "ACE-031 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "1 mg vial",
-          "mg": 1,
-          "price": 60.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "ptd-dbm-1mg",
-      "name": "PTD-DBM",
-      "label": "PTD-DBM",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "PTD-DBM supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "1 mg vial",
-          "mg": 1,
-          "price": 60.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "igf-1-lr3-1mg",
-      "name": "IGF-1 LR3",
-      "label": "IGF-1 LR3",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "IGF-1 LR3 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "1 mg vial",
-          "mg": 1,
-          "price": 95.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "gdf-8-1mg",
-      "name": "GDF-8",
-      "label": "GDF-8",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "GDF-8 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "1 mg vial",
-          "mg": 1,
-          "price": 155.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "igf-1-lr3-0-1mg",
-      "name": "IGF-1 LR3",
-      "label": "IGF-1 LR3",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "IGF-1 LR3 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "LabFirst Peptides",
-        "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
-      },
-      "variants": [
-        {
-          "label": "0.1 mg vial",
-          "mg": 0.1,
-          "price": 65.0
-        }
-      ],
-      "image": "images/products/ipamorelin-vial.png"
-    },
-    {
-      "id": "tesamorelin-2mg",
-      "name": "Tesamorelin",
-      "label": "Tesamorelin",
-      "category": "growth",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Tesamorelin supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "Sports Technology Labs",
-        "url": "https://sportstechnologylabs.com/product-category/peptides/"
-      },
-      "variants": [
-        {
-          "label": "2 mg vial",
-          "mg": 2,
-          "price": 24.99
-        }
-      ],
-      "image": "images/products/tesamorelin-vial.png"
-    },
-    {
-      "id": "mots-c-5mg",
-      "name": "MOTS-c",
-      "label": "MOTS-c",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "MOTS-c supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "Sports Technology Labs",
-        "url": "https://sportstechnologylabs.com/product-category/peptides/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 59.99
-        }
-      ],
-      "image": "images/products/mots-c-scene.webp"
-    },
-    {
-      "id": "glow-bundle",
-      "name": "BPC-157, TB-500 & GHK-Cu Glow Bundle",
-      "label": "Glow Bundle",
-      "category": "bundles",
-      "form": "Lyophilized powder in sealed glass vials",
-      "description": "A bundle of BPC-157, TB-500 and GHK-Cu supplied as lyophilized powder in sealed glass vials.",
-      "source": {
-        "store": "Sports Technology Labs",
-        "url": "https://sportstechnologylabs.com/peptide-stack/"
-      },
-      "variants": [
-        {
-          "label": "5 mg + 5 mg + 50 mg",
-          "mg": 60,
-          "price": 157.99
-        }
-      ],
-      "image": "images/products/bpc-tb-500-blend.png"
-    },
-    {
-      "id": "bpc-157-20mg",
-      "name": "BPC-157",
-      "label": "BPC-157",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "BPC-157 supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "Ouralus",
-        "url": "https://ouralus.com/catalogue/"
-      },
-      "variants": [
-        {
-          "label": "20 mg vial",
-          "mg": 20,
-          "price": 41.4
-        }
-      ],
-      "image": "images/products/bpc-157-scene.webp"
-    },
-    {
-      "id": "na-semax-30mg",
-      "name": "NA-Semax",
-      "label": "NA-Semax",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "NA-Semax supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "Ouralus",
-        "url": "https://ouralus.com/catalogue/"
-      },
-      "variants": [
-        {
-          "label": "30 mg vial",
-          "mg": 30,
-          "price": 47.4
-        }
-      ],
-      "image": "images/products/na-semax-scene.webp"
-    },
-    {
-      "id": "dsip-15mg",
-      "name": "DSIP",
-      "label": "DSIP",
-      "category": "cognitive",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "DSIP supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "Ouralus",
-        "url": "https://ouralus.com/catalogue/"
-      },
-      "variants": [
-        {
-          "label": "15 mg vial",
-          "mg": 15,
-          "price": 39.0
-        }
-      ],
-      "image": "images/products/dsip-scene.webp"
-    },
-    {
-      "id": "foxo4-dri-5mg",
-      "name": "FOXO4-DRI",
-      "label": "FOXO4-DRI",
-      "category": "cellular",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "FOXO4-DRI supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "Ouralus",
-        "url": "https://ouralus.com/catalogue/"
-      },
-      "variants": [
-        {
-          "label": "5 mg vial",
-          "mg": 5,
-          "price": 77.4
-        }
-      ],
-      "image": "images/products/ara-290-vial.webp"
-    },
-    {
-      "id": "bpc-157-capsules",
-      "name": "BPC-157 Capsules",
-      "label": "BPC-157",
-      "category": "healing",
-      "form": "Capsules (60 capsules)",
-      "description": "BPC-157 supplied as capsules.",
-      "source": {
-        "store": "SwissChems",
-        "url": "https://swisschems.is/product/bpc-157-0-5mg-capsule-60-capsules/"
-      },
-      "variants": [
-        {
-          "label": "0.5 mg x 60 capsules",
-          "mg": 30,
-          "price": 85.95
-        }
-      ],
-      "image": "images/products/bpc-157-capsules.png"
-    },
-    {
-      "id": "tb-500-capsules",
-      "name": "TB-500 Capsules",
-      "label": "TB-500",
-      "category": "healing",
-      "form": "Capsules (60 capsules)",
-      "description": "TB-500 supplied as capsules.",
-      "source": {
-        "store": "SwissChems",
-        "url": "https://swisschems.is/product-category/longevity-research/"
-      },
-      "variants": [
-        {
-          "label": "0.5 mg x 60 capsules",
-          "mg": 30,
-          "price": 149.99
-        }
-      ],
-      "image": "images/products/tb-500-capsules.png"
-    },
-    {
-      "id": "healing-bundle",
-      "name": "Healing Research Bundle",
-      "label": "Heal Bundle",
-      "category": "bundles",
-      "form": "Lyophilized powder in sealed glass vials",
-      "description": "A bundle of TB-500 and BPC-157 supplied as lyophilized powder in sealed glass vials.",
-      "source": {
-        "store": "SwissChems",
-        "url": "https://swisschems.is/product/healing-research/"
-      },
-      "variants": [
-        {
-          "label": "TB-500 + BPC-157",
-          "mg": null,
-          "price": 71.38
-        }
-      ],
-      "image": "images/products/healing-research-bundle.png"
-    },
-    {
-      "id": "longevity-bundle",
-      "name": "Longevity Research Bundle",
-      "label": "Longevity",
-      "category": "bundles",
-      "form": "Lyophilized powder in sealed glass vials",
-      "description": "A research peptide bundle supplied as lyophilized powder in sealed glass vials.",
-      "source": {
-        "store": "SwissChems",
-        "url": "https://swisschems.is/product-category/longevity-research/"
-      },
-      "variants": [
-        {
-          "label": "Bundle",
-          "mg": null,
-          "price": 129.18
-        }
-      ],
-      "image": "images/products/longevity-research-bundle.png"
-    },
-    {
-      "id": "glutathione-600mg",
-      "name": "Glutathione",
-      "label": "Glutathione",
-      "category": "healing",
-      "form": "Lyophilized powder in a sealed glass vial",
-      "description": "Glutathione supplied as lyophilized powder in a sealed glass vial.",
-      "source": {
-        "store": "SwissChems",
-        "url": "https://swisschems.is/product-category/longevity-research/"
-      },
-      "variants": [
-        {
-          "label": "600 mg vial",
-          "mg": 600,
-          "price": 29.95
-        }
-      ],
-      "image": "images/products/glutathione-scene.webp"
-    },
-    {
-      "id": "kpv-capsules",
-      "name": "KPV Capsules",
-      "label": "KPV",
-      "category": "healing",
-      "form": "Capsules (60 capsules)",
-      "description": "KPV supplied as capsules.",
-      "source": {
-        "store": "SwissChems",
-        "url": "https://swisschems.is/product-category/peptides/"
-      },
-      "variants": [
-        {
-          "label": "250 mcg x 60 capsules",
-          "mg": 15,
-          "price": 139.95
-        }
-      ],
-      "image": "images/products/kpv-scene.webp"
+   ],
+   "image": "images/products/glutathione-vial.png"
+  },
+  {
+   "id": "nad-plus-1000mg",
+   "name": "NAD+",
+   "label": "NAD+",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "NAD+ supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "1000 mg vial",
+     "mg": 1000,
+     "price": 98.74
     }
-  ]
+   ],
+   "image": "images/products/nad-plus-scene.webp"
+  },
+  {
+   "id": "nad-plus-500mg",
+   "name": "NAD+",
+   "label": "NAD+",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "NAD+ supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "500 mg vial",
+     "mg": 500,
+     "price": 71.81
+    }
+   ],
+   "image": "images/products/nad-plus-scene.webp"
+  },
+  {
+   "id": "nad-plus-100mg",
+   "name": "NAD+",
+   "label": "NAD+",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "NAD+ supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "100 mg vial",
+     "mg": 100,
+     "price": 35.9
+    }
+   ],
+   "image": "images/products/nad-plus-scene.webp"
+  },
+  {
+   "id": "ghk-cu-100mg",
+   "name": "GHK-Cu",
+   "label": "GHK-Cu",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "GHK-Cu supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "100 mg vial",
+     "mg": 100,
+     "price": 52.96
+    }
+   ],
+   "image": "images/products/ghk-cu-vial.png"
+  },
+  {
+   "id": "cerebrolysin-60mg",
+   "name": "Cerebrolysin",
+   "label": "Cerebrolysin",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Cerebrolysin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "60 mg vial",
+     "mg": 60,
+     "price": 44.88
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "ghk-cu-50mg",
+   "name": "GHK-Cu",
+   "label": "GHK-Cu",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "GHK-Cu supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "50 mg vial",
+     "mg": 50,
+     "price": 43.98
+    }
+   ],
+   "image": "images/products/ghk-cu-vial.png"
+  },
+  {
+   "id": "ahk-cu-50mg",
+   "name": "AHK-Cu",
+   "label": "AHK-Cu",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "AHK-Cu supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "50 mg vial",
+     "mg": 50,
+     "price": 53.86
+    }
+   ],
+   "image": "images/products/ghk-cu-vial.png"
+  },
+  {
+   "id": "epithalon-50mg",
+   "name": "Epithalon",
+   "label": "Epithalon",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Epithalon supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "50 mg vial",
+     "mg": 50,
+     "price": 97.84
+    }
+   ],
+   "image": "images/products/epitalon-scene.webp"
+  },
+  {
+   "id": "semax-30mg",
+   "name": "Semax",
+   "label": "Semax",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Semax supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "30 mg vial",
+     "mg": 30,
+     "price": 61.93
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "mots-c-40mg",
+   "name": "MOTS-c",
+   "label": "MOTS-c",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "MOTS-c supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "40 mg vial",
+     "mg": 40,
+     "price": 89.76
+    }
+   ],
+   "image": "images/products/mots-c-scene.webp"
+  },
+  {
+   "id": "selank-30mg",
+   "name": "Selank",
+   "label": "Selank",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Selank supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "30 mg vial",
+     "mg": 30,
+     "price": 70.91
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "melanotan-ii-10mg",
+   "name": "Melanotan II",
+   "label": "MT-II",
+   "category": "tanning",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Melanotan II supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 31.42
+    }
+   ],
+   "image": "images/products/tb-500-vial.png"
+  },
+  {
+   "id": "mots-c-20mg",
+   "name": "MOTS-c",
+   "label": "MOTS-c",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "MOTS-c supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 67.32
+    }
+   ],
+   "image": "images/products/mots-c-scene.webp"
+  },
+  {
+   "id": "semax-10mg",
+   "name": "Semax",
+   "label": "Semax",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Semax supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 35.01
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "bronchogen-20mg",
+   "name": "Bronchogen",
+   "label": "Bronchogen",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Bronchogen supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 71.81
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "epithalon-10mg",
+   "name": "Epithalon",
+   "label": "Epithalon",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Epithalon supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 35.9
+    }
+   ],
+   "image": "images/products/epitalon-scene.webp"
+  },
+  {
+   "id": "melanotan-i-10mg",
+   "name": "Melanotan I",
+   "label": "MT-I",
+   "category": "tanning",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Melanotan I supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 35.9
+    }
+   ],
+   "image": "images/products/tb-500-vial.png"
+  },
+  {
+   "id": "pt-141-10mg",
+   "name": "PT-141 (Bremelanotide)",
+   "label": "PT-141",
+   "category": "tanning",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "PT-141 (Bremelanotide) supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 35.9
+    }
+   ],
+   "image": "images/products/tb-500-vial.png"
+  },
+  {
+   "id": "ss-31-50mg",
+   "name": "SS-31",
+   "label": "SS-31",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "SS-31 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "50 mg vial",
+     "mg": 50,
+     "price": 187.6
+    }
+   ],
+   "image": "images/products/ss-31-scene.webp"
+  },
+  {
+   "id": "cardiogen-20mg",
+   "name": "Cardiogen",
+   "label": "Cardiogen",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Cardiogen supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 76.3
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "cartalax-20mg",
+   "name": "Cartalax",
+   "label": "Cartalax",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Cartalax supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 76.3
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "cortagen-20mg",
+   "name": "Cortagen",
+   "label": "Cortagen",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Cortagen supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 76.3
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "pinealon-20mg",
+   "name": "Pinealon",
+   "label": "Pinealon",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Pinealon supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 76.3
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "selank-10mg",
+   "name": "Selank",
+   "label": "Selank",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Selank supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 39.49
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "oxytocin-10mg",
+   "name": "Oxytocin Acetate",
+   "label": "Oxytocin",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Oxytocin Acetate supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 40.39
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "kpv-10mg",
+   "name": "KPV",
+   "label": "KPV",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "KPV supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 43.98
+    }
+   ],
+   "image": "images/products/kpv-scene.webp"
+  },
+  {
+   "id": "ghrp-2-15mg",
+   "name": "GHRP-2",
+   "label": "GHRP-2",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "GHRP-2 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "15 mg vial",
+     "mg": 15,
+     "price": 71.81
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "dsip-10mg",
+   "name": "DSIP",
+   "label": "DSIP",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "DSIP supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 48.47
+    }
+   ],
+   "image": "images/products/dsip-scene.webp"
+  },
+  {
+   "id": "bpc-tb-blend-20mg",
+   "name": "BPC-157 + TB-500 Blend",
+   "label": "BPC + TB",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "A blend of BPC-157 and TB-500 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg + 10 mg (20 mg total)",
+     "mg": 20,
+     "price": 97.84
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "matrixyl-10mg",
+   "name": "Matrixyl",
+   "label": "Matrixyl",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Matrixyl supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 49.37
+    }
+   ],
+   "image": "images/products/bpc-157-vial.png"
+  },
+  {
+   "id": "bpc-157-10mg",
+   "name": "BPC-157",
+   "label": "BPC-157",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "BPC-157 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 52.96
+    }
+   ],
+   "image": "images/products/bpc-157-purerawz.webp"
+  },
+  {
+   "id": "ss-31-10mg",
+   "name": "SS-31",
+   "label": "SS-31",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "SS-31 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 52.96
+    }
+   ],
+   "image": "images/products/ss-31-scene.webp"
+  },
+  {
+   "id": "mots-c-10mg",
+   "name": "MOTS-c",
+   "label": "MOTS-c",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "MOTS-c supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 53.86
+    }
+   ],
+   "image": "images/products/mots-c-scene.webp"
+  },
+  {
+   "id": "pinealon-10mg",
+   "name": "Pinealon",
+   "label": "Pinealon",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Pinealon supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 53.86
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "vesugen-10mg",
+   "name": "Vesugen",
+   "label": "Vesugen",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Vesugen supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 53.86
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "ipamorelin-10mg",
+   "name": "Ipamorelin",
+   "label": "Ipamorelin",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Ipamorelin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 58.34
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "cjc-ipa-20mg",
+   "name": "CJC-1295 + Ipamorelin Blend",
+   "label": "CJC + IPA",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "A blend of CJC-1295 (no DAC) and Ipamorelin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg total",
+     "mg": 20,
+     "price": 121.18
+    }
+   ],
+   "featured": true,
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "cjc-1295-5mg",
+   "name": "CJC-1295 (no DAC)",
+   "label": "CJC-1295",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "CJC-1295 (no DAC) supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 30.52
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "semax-5mg",
+   "name": "Semax",
+   "label": "Semax",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Semax supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 30.52
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "ara-290-10mg",
+   "name": "ARA-290",
+   "label": "ARA-290",
+   "category": "cellular",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "ARA-290 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 62.83
+    }
+   ],
+   "image": "images/products/ara-290-vial.webp"
+  },
+  {
+   "id": "pe-22-28-10mg",
+   "name": "PE-22-28",
+   "label": "PE-22-28",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "PE-22-28 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 62.83
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "aod-9604-10mg",
+   "name": "AOD-9604",
+   "label": "AOD-9604",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "AOD-9604 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 67.32
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "ghrp-2-10mg",
+   "name": "GHRP-2",
+   "label": "GHRP-2",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "GHRP-2 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 67.32
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "ghrp-6-10mg",
+   "name": "GHRP-6",
+   "label": "GHRP-6",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "GHRP-6 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 67.32
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "sermorelin-10mg",
+   "name": "Sermorelin",
+   "label": "Sermorelin",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Sermorelin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 67.32
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "tb-500-10mg",
+   "name": "TB-500",
+   "label": "TB-500",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "TB-500 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 67.32
+    }
+   ],
+   "image": "images/products/tb-500-vial.png"
+  },
+  {
+   "id": "tesamorelin-20mg",
+   "name": "Tesamorelin",
+   "label": "Tesamorelin",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Tesamorelin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 134.64
+    }
+   ],
+   "image": "images/products/tesamorelin-vial.png"
+  },
+  {
+   "id": "kpv-5mg",
+   "name": "KPV",
+   "label": "KPV",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "KPV supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 35.01
+    }
+   ],
+   "image": "images/products/kpv-scene.webp"
+  },
+  {
+   "id": "selank-5mg",
+   "name": "Selank",
+   "label": "Selank",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Selank supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 35.01
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "cjc-ipa-10mg",
+   "name": "CJC-1295 + Ipamorelin Blend",
+   "label": "CJC + IPA",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "A blend of CJC-1295 (no DAC) and Ipamorelin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg total",
+     "mg": 10,
+     "price": 70.91
+    }
+   ],
+   "featured": true,
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "oxytocin-5mg",
+   "name": "Oxytocin Acetate",
+   "label": "Oxytocin",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Oxytocin Acetate supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 19.7
+    },
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 35.9
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "tesamorelin-10mg",
+   "name": "Tesamorelin",
+   "label": "Tesamorelin",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Tesamorelin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 71.81
+    }
+   ],
+   "image": "images/products/tesamorelin-vial.png"
+  },
+  {
+   "id": "thymalin-10mg",
+   "name": "Thymalin / Thymulin",
+   "label": "Thymalin",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Thymalin / Thymulin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 71.81
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "bpc-tb-blend-10mg",
+   "name": "BPC-157 + TB-500 Blend",
+   "label": "BPC + TB",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "A blend of BPC-157 and TB-500 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg + 5 mg (10 mg total)",
+     "mg": 10,
+     "price": 76.3
+    }
+   ],
+   "featured": true,
+   "testing": "Independent laboratory testing published for this blend: 99.43% / 99.42% (MZ Biolabs, Tucson AZ).",
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "cjc-1295-10mg",
+   "name": "CJC-1295 (no DAC)",
+   "label": "CJC-1295",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "CJC-1295 (no DAC) supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 76.3
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "kisspeptin-10-10mg",
+   "name": "Kisspeptin-10",
+   "label": "Kisspeptin",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Kisspeptin-10 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 76.3
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "aod-9604-5mg",
+   "name": "AOD-9604",
+   "label": "AOD-9604",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "AOD-9604 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 39.49
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "ipamorelin-5mg",
+   "name": "Ipamorelin",
+   "label": "Ipamorelin",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Ipamorelin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 15.76
+    },
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 39.49
+    }
+   ],
+   "image": "images/products/ipamorelin-scene.webp"
+  },
+  {
+   "id": "ghrp-2-5mg",
+   "name": "GHRP-2",
+   "label": "GHRP-2",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "GHRP-2 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 40.39
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "ghrp-6-5mg",
+   "name": "GHRP-6",
+   "label": "GHRP-6",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "GHRP-6 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 40.39
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "tesamorelin-5mg",
+   "name": "Tesamorelin",
+   "label": "Tesamorelin",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Tesamorelin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 40.39
+    }
+   ],
+   "image": "images/products/tesamorelin-vial.png"
+  },
+  {
+   "id": "bpc-157-5mg",
+   "name": "BPC-157",
+   "label": "BPC-157",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "BPC-157 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 43.98
+    }
+   ],
+   "featured": true,
+   "image": "images/products/bpc-157-vial.png"
+  },
+  {
+   "id": "dsip-5mg",
+   "name": "DSIP",
+   "label": "DSIP",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "DSIP supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 43.98
+    }
+   ],
+   "image": "images/products/dsip-scene.webp"
+  },
+  {
+   "id": "sermorelin-5mg",
+   "name": "Sermorelin",
+   "label": "Sermorelin",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Sermorelin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 44.88
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "adipotide-10mg",
+   "name": "Adipotide (FTPP)",
+   "label": "Adipotide",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Adipotide (FTPP) supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 94.25
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "tb-500-5mg",
+   "name": "TB-500",
+   "label": "TB-500",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "TB-500 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 48.47
+    }
+   ],
+   "featured": true,
+   "image": "images/products/tb-500-scene.webp"
+  },
+  {
+   "id": "kisspeptin-10-5mg",
+   "name": "Kisspeptin-10",
+   "label": "Kisspeptin",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Kisspeptin-10 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 53.86
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "thymosin-alpha-1-10mg",
+   "name": "Thymosin Alpha-1",
+   "label": "Thymosin A1",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Thymosin Alpha-1 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 116.69
+    }
+   ],
+   "image": "images/products/bpc-157-vial.png"
+  },
+  {
+   "id": "vip-5mg",
+   "name": "VIP",
+   "label": "VIP",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "VIP supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 58.34
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "thymosin-alpha-1-5mg",
+   "name": "Thymosin Alpha-1",
+   "label": "Thymosin A1",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Thymosin Alpha-1 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 62.83
+    }
+   ],
+   "image": "images/products/bpc-157-vial.png"
+  },
+  {
+   "id": "vip-10mg",
+   "name": "VIP",
+   "label": "VIP",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "VIP supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 134.64
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "foxo4-dri-10mg",
+   "name": "FOXO4-DRI",
+   "label": "FOXO4-DRI",
+   "category": "cellular",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "FOXO4-DRI supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 157.08
+    }
+   ],
+   "image": "images/products/ara-290-vial.webp"
+  },
+  {
+   "id": "p21-5mg",
+   "name": "P21 (P021)",
+   "label": "P21",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "P21 (P021) supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 85.27
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "adipotide-5mg",
+   "name": "Adipotide (FTPP)",
+   "label": "Adipotide",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Adipotide (FTPP) supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 89.76
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "cjc-1295-dac-5mg",
+   "name": "CJC-1295 (with DAC)",
+   "label": "CJC + DAC",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "CJC-1295 (with DAC) supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 116.69
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "foxo4-dri-2mg",
+   "name": "FOXO4-DRI",
+   "label": "FOXO4-DRI",
+   "category": "cellular",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "FOXO4-DRI supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 49.37
+    }
+   ],
+   "image": "images/products/ara-290-vial.webp"
+  },
+  {
+   "id": "gonadorelin-2mg",
+   "name": "Gonadorelin Acetate",
+   "label": "Gonadorelin",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Gonadorelin Acetate supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 49.37
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "ll-37-5mg",
+   "name": "LL-37",
+   "label": "LL-37",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "LL-37 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 134.64
+    }
+   ],
+   "image": "images/products/bpc-157-vial.png"
+  },
+  {
+   "id": "snap-8-2mg",
+   "name": "SNAP-8",
+   "label": "SNAP-8",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "SNAP-8 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 58.34
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "igf-1-des-2mg",
+   "name": "IGF-1 DES",
+   "label": "IGF-1 DES",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "IGF-1 DES supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 67.32
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "peg-mgf-2mg",
+   "name": "PEG-MGF",
+   "label": "PEG-MGF",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "PEG-MGF supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 71.81
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "ace-031-1mg",
+   "name": "ACE-031",
+   "label": "ACE-031",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "ACE-031 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "1 mg vial",
+     "mg": 1,
+     "price": 53.86
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "ptd-dbm-1mg",
+   "name": "PTD-DBM",
+   "label": "PTD-DBM",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "PTD-DBM supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "1 mg vial",
+     "mg": 1,
+     "price": 53.86
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "igf-1-lr3-1mg",
+   "name": "IGF-1 LR3",
+   "label": "IGF-1 LR3",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "IGF-1 LR3 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "1 mg vial",
+     "mg": 1,
+     "price": 85.27
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "gdf-8-1mg",
+   "name": "GDF-8",
+   "label": "GDF-8",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "GDF-8 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "1 mg vial",
+     "mg": 1,
+     "price": 139.13
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "igf-1-lr3-0-1mg",
+   "name": "IGF-1 LR3",
+   "label": "IGF-1 LR3",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "IGF-1 LR3 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "0.1 mg vial",
+     "mg": 0.1,
+     "price": 58.34
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "tesamorelin-2mg",
+   "name": "Tesamorelin",
+   "label": "Tesamorelin",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Tesamorelin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Sports Technology Labs",
+    "url": "https://sportstechnologylabs.com/product-category/peptides/"
+   },
+   "variants": [
+    {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 22.43
+    }
+   ],
+   "image": "images/products/tesamorelin-vial.png"
+  },
+  {
+   "id": "mots-c-5mg",
+   "name": "MOTS-c",
+   "label": "MOTS-c",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "MOTS-c supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Sports Technology Labs",
+    "url": "https://sportstechnologylabs.com/product-category/peptides/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 53.85
+    }
+   ],
+   "image": "images/products/mots-c-scene.webp"
+  },
+  {
+   "id": "glow-bundle",
+   "name": "BPC-157, TB-500 & GHK-Cu Glow Bundle",
+   "label": "Glow Bundle",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A bundle of BPC-157, TB-500 and GHK-Cu supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "Sports Technology Labs",
+    "url": "https://sportstechnologylabs.com/peptide-stack/"
+   },
+   "variants": [
+    {
+     "label": "5 mg + 5 mg + 50 mg",
+     "mg": 60,
+     "price": 141.81
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "bpc-157-20mg",
+   "name": "BPC-157",
+   "label": "BPC-157",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "BPC-157 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Ouralus",
+    "url": "https://ouralus.com/catalogue/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 37.16
+    }
+   ],
+   "image": "images/products/bpc-157-scene.webp"
+  },
+  {
+   "id": "na-semax-30mg",
+   "name": "NA-Semax",
+   "label": "NA-Semax",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "NA-Semax supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Ouralus",
+    "url": "https://ouralus.com/catalogue/"
+   },
+   "variants": [
+    {
+     "label": "30 mg vial",
+     "mg": 30,
+     "price": 42.55
+    }
+   ],
+   "image": "images/products/na-semax-scene.webp"
+  },
+  {
+   "id": "dsip-15mg",
+   "name": "DSIP",
+   "label": "DSIP",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "DSIP supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Ouralus",
+    "url": "https://ouralus.com/catalogue/"
+   },
+   "variants": [
+    {
+     "label": "15 mg vial",
+     "mg": 15,
+     "price": 35.01
+    }
+   ],
+   "image": "images/products/dsip-scene.webp"
+  },
+  {
+   "id": "foxo4-dri-5mg",
+   "name": "FOXO4-DRI",
+   "label": "FOXO4-DRI",
+   "category": "cellular",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "FOXO4-DRI supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Ouralus",
+    "url": "https://ouralus.com/catalogue/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 69.47
+    }
+   ],
+   "image": "images/products/ara-290-vial.webp"
+  },
+  {
+   "id": "bpc-157-capsules",
+   "name": "BPC-157 Capsules",
+   "label": "BPC-157",
+   "category": "healing",
+   "form": "Capsules (60 capsules)",
+   "description": "BPC-157 supplied as capsules.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/bpc-157-0-5mg-capsule-60-capsules/"
+   },
+   "variants": [
+    {
+     "label": "0.5 mg x 60 capsules",
+     "mg": 30,
+     "price": 77.15
+    }
+   ],
+   "image": "images/products/bpc-157-capsules.png"
+  },
+  {
+   "id": "tb-500-capsules",
+   "name": "TB-500 Capsules",
+   "label": "TB-500",
+   "category": "healing",
+   "form": "Capsules (60 capsules)",
+   "description": "TB-500 supplied as capsules.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product-category/longevity-research/"
+   },
+   "variants": [
+    {
+     "label": "0.5 mg x 60 capsules",
+     "mg": 30,
+     "price": 134.63
+    }
+   ],
+   "image": "images/products/tb-500-capsules.png"
+  },
+  {
+   "id": "healing-bundle",
+   "name": "Healing Research Bundle",
+   "label": "Heal Bundle",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A bundle of TB-500 and BPC-157 supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/healing-research/"
+   },
+   "variants": [
+    {
+     "label": "TB-500 + BPC-157",
+     "mg": null,
+     "price": 64.07
+    }
+   ],
+   "image": "images/products/healing-research-bundle.png"
+  },
+  {
+   "id": "longevity-bundle",
+   "name": "Longevity Research Bundle",
+   "label": "Longevity",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A research peptide bundle supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product-category/longevity-research/"
+   },
+   "variants": [
+    {
+     "label": "Bundle",
+     "mg": null,
+     "price": 115.95
+    }
+   ],
+   "image": "images/products/longevity-research-bundle.png"
+  },
+  {
+   "id": "glutathione-600mg",
+   "name": "Glutathione",
+   "label": "Glutathione",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Glutathione supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product-category/longevity-research/"
+   },
+   "variants": [
+    {
+     "label": "600 mg vial",
+     "mg": 600,
+     "price": 26.88
+    }
+   ],
+   "image": "images/products/glutathione-scene.webp"
+  },
+  {
+   "id": "kpv-capsules",
+   "name": "KPV Capsules",
+   "label": "KPV",
+   "category": "healing",
+   "form": "Capsules (60 capsules)",
+   "description": "KPV supplied as capsules.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product-category/peptides/"
+   },
+   "variants": [
+    {
+     "label": "250 mcg x 60 capsules",
+     "mg": 15,
+     "price": 125.62
+    }
+   ],
+   "image": "images/products/kpv-scene.webp"
+  },
+  {
+   "id": "glow-70mg",
+   "name": "GLOW",
+   "label": "GLOW",
+   "category": "bundles",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "A blend of BPC-157, GHK-Cu and TB-500 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/products/glow/"
+   },
+   "variants": [
+    {
+     "label": "70 mg vial",
+     "mg": 70,
+     "price": 116.69
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "klow-80mg",
+   "name": "KLOW",
+   "label": "KLOW",
+   "category": "bundles",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "A blend of BPC-157, GHK-Cu, TB-500 and KPV supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/products/klow/"
+   },
+   "variants": [
+    {
+     "label": "80 mg vial",
+     "mg": 80,
+     "price": 121.18
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "bpc-tb-wolverine-bundle",
+   "name": "BPC-157 & TB-500 Wolverine Bundle",
+   "label": "BPC + TB Wolverine",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A bundle of BPC-157 and TB-500 supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "Sports Technology Labs",
+    "url": "https://sportstechnologylabs.com/product/tb-500-and-bpc-157/"
+   },
+   "variants": [
+    {
+     "label": "5 mg + 5 mg (two vials)",
+     "mg": 10,
+     "price": 102.32
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "cjc-ipa-dac-bundle",
+   "name": "CJC-1295 DAC + Ipamorelin Bundle",
+   "label": "CJC DAC + IPA",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A bundle of CJC-1295 DAC and Ipamorelin supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "Sports Technology Labs",
+    "url": "https://sportstechnologylabs.com/product/cjc-1295-peptide-and-ipamorelin-peptide/"
+   },
+   "variants": [
+    {
+     "label": "5 mg + 5 mg (two vials)",
+     "mg": 10,
+     "price": 116.68
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "ghk-bpc-tb-bundle",
+   "name": "GHK + BPC-157 + TB-500",
+   "label": "GHK + BPC + TB",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A bundle of GHK-Cu, BPC-157 and TB-500 supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "Ouralus",
+    "url": "https://ouralus.com/stacks/"
+   },
+   "variants": [
+    {
+     "label": "100 mg + 20 mg + 10 mg",
+     "mg": 130,
+     "price": 139.13
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "mots-ss31-bundle",
+   "name": "MOTS-c + SS-31",
+   "label": "MOTS-c + SS-31",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A bundle of MOTS-c and SS-31 supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "Ouralus",
+    "url": "https://ouralus.com/stacks/"
+   },
+   "variants": [
+    {
+     "label": "10 mg + 10 mg",
+     "mg": 20,
+     "price": 97.84
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "tesa-ipa-bundle",
+   "name": "Tesamorelin + Ipamorelin",
+   "label": "Tesamorelin + Ipamorelin",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A bundle of Tesamorelin and Ipamorelin supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "Ouralus",
+    "url": "https://ouralus.com/stacks/"
+   },
+   "variants": [
+    {
+     "label": "10 mg + 5 mg",
+     "mg": 15,
+     "price": 67.32
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "epitalon-dsip-bundle",
+   "name": "Epitalon + DSIP",
+   "label": "Epitalon + DSIP",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A bundle of Epitalon and DSIP supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "Ouralus",
+    "url": "https://ouralus.com/stacks/"
+   },
+   "variants": [
+    {
+     "label": "10 mg + 15 mg",
+     "mg": 25,
+     "price": 77.19
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "kpv-bpc-bundle",
+   "name": "KPV + BPC-157",
+   "label": "KPV + BPC-157",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A bundle of KPV and BPC-157 supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "Ouralus",
+    "url": "https://ouralus.com/stacks/"
+   },
+   "variants": [
+    {
+     "label": "10 mg + 20 mg",
+     "mg": 30,
+     "price": 89.76
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "bpc-tb-stack-30mg",
+   "name": "BPC-157 + TB-500 Stack",
+   "label": "BPC + TB Stack",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A bundle of BPC-157 and TB-500 supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "Ouralus",
+    "url": "https://ouralus.com/stacks/"
+   },
+   "variants": [
+    {
+     "label": "20 mg + 10 mg",
+     "mg": 30,
+     "price": 91.56
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "dihexa-capsules",
+   "name": "Dihexa Capsules",
+   "label": "Dihexa",
+   "category": "cognitive",
+   "form": "Capsules (60 capsules)",
+   "description": "Dihexa supplied as 5 mg capsules, 60 capsules per bottle.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/dihexa-5mg-capsule-60-capsules/"
+   },
+   "variants": [
+    {
+     "label": "5 mg x 60 capsules",
+     "mg": 300,
+     "price": 62.82
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "mgf-2mg",
+   "name": "MGF",
+   "label": "MGF",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "MGF (Mechano Growth Factor) supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/mgf-without-peg-2-mg/"
+   },
+   "variants": [
+    {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 26.92
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "follistatin-344-1mg",
+   "name": "Follistatin-344",
+   "label": "Follistatin-344",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Follistatin-344 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/follistatin-344-1mg/"
+   },
+   "variants": [
+    {
+     "label": "1 mg vial",
+     "mg": 1,
+     "price": 125.66
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "hexarelin-2mg",
+   "name": "Hexarelin",
+   "label": "Hexarelin",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Hexarelin (Examorelin) supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/hexarelin-examorelin-2mg/"
+   },
+   "variants": [
+    {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 19.35
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "tb-500-fragment-17-23-5mg",
+   "name": "TB-500 Fragment (17-23)",
+   "label": "TB-500 Fragment",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "TB-500 Fragment (17-23) supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/tb-500-fragment-17-23/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 43.94
+    },
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 87.02
+    }
+   ],
+   "image": "images/products/bpc-157-vial.png"
+  },
+  {
+   "id": "prostamax-20mg",
+   "name": "Prostamax",
+   "label": "Prostamax",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Prostamax supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/prostamax-20mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 53.81
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "testagen-20mg",
+   "name": "Testagen",
+   "label": "Testagen",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Testagen supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/testagen-20mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 53.81
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "livagen-20mg",
+   "name": "Livagen",
+   "label": "Livagen",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Livagen supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/livagen-20mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 56.5
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "pancragen-20mg",
+   "name": "Pancragen",
+   "label": "Pancragen",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Pancragen supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/pancragen-20mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 53.81
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "thymogen-20mg",
+   "name": "Thymogen",
+   "label": "Thymogen",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Thymogen supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/thymogen-20mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 60.99
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "ovagen-20mg",
+   "name": "Ovagen",
+   "label": "Ovagen",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Ovagen supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/ovagen-20mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 51.61
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "chonluten-20mg",
+   "name": "Chonluten",
+   "label": "Chonluten",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Chonluten supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/chonluten-20mg/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 52.95
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "brain-research-bundle",
+   "name": "Brain Research Bundle",
+   "label": "Brain Research Bundle",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A bundle of Semax and Selank supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "SwissChems",
+    "url": "https://swisschems.is/product/brain-research-bundle/"
+   },
+   "variants": [
+    {
+     "label": "Bundle",
+     "mg": null,
+     "price": 71.74
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  }
+ ]
 }
