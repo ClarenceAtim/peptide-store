@@ -144,14 +144,21 @@
         <h2>How do you want to pay?</h2>
         <p class="lead">Choose a payment method. No payment is taken here — the store will email you the payment details for the method you choose.</p>
         <div class="pay-options" role="radiogroup" aria-label="Payment method">
-          <label class="pay-option"><input type="radio" name="payment-method" value="bank"><span><strong>Bank transfer</strong><br><span class="price-note">The store will email you the bank details.</span></span></label>
+          <label class="pay-option"><input type="radio" name="payment-method" value="bank"><span><strong>Bank transfer (SEPA)</strong><br><span class="price-note">The store will email you the bank details.</span></span></label>
+          <label class="pay-option"><input type="radio" name="payment-method" value="paypal"><span><strong>PayPal</strong><br><span class="price-note">The store will email you the PayPal payment details.</span></span></label>
+          <label class="pay-option"><input type="radio" name="payment-method" value="card"><span><strong>Credit / Debit card</strong><br><span class="price-note">The store will email you a secure card payment link.</span></span></label>
+          <label class="pay-option"><input type="radio" name="payment-method" value="klarna"><span><strong>Klarna</strong><br><span class="price-note">The store will email you the Klarna payment details.</span></span></label>
+          <label class="pay-option"><input type="radio" name="payment-method" value="applepay"><span><strong>Apple Pay</strong><br><span class="price-note">The store will email you the Apple Pay payment details.</span></span></label>
+          <label class="pay-option"><input type="radio" name="payment-method" value="googlepay"><span><strong>Google Pay</strong><br><span class="price-note">The store will email you the Google Pay payment details.</span></span></label>
+          <label class="pay-option"><input type="radio" name="payment-method" value="revolut"><span><strong>Revolut</strong><br><span class="price-note">The store will email you the Revolut payment details.</span></span></label>
+          <label class="pay-option"><input type="radio" name="payment-method" value="chime"><span><strong>Chime</strong><br><span class="price-note">The store will email you the Chime payment details.</span></span></label>
           <label class="pay-option"><input type="radio" name="payment-method" value="btc"><span><strong>Bitcoin (BTC)</strong><br><span class="price-note">The store will email you the Bitcoin wallet address.</span></span></label>
           <label class="pay-option"><input type="radio" name="payment-method" value="usdt"><span><strong>USDT (Tether)</strong><br><span class="price-note">The store will email you the USDT wallet address.</span></span></label>
         </div>
         <p class="form-error" id="payment-error"></p>
         <p style="margin-top: 18px;"><button class="btn" type="submit">Send order request</button> <button class="btn btn-outline" type="button" id="payment-back">Back to your details</button></p>
       </div>
-      <p class="currency-note" style="margin-top: 10px;">Prices are shown in US dollars (USD). Euro (EUR) pricing will be set by the store. Shipping costs are confirmed by email when your order is confirmed.</p>
+      <p class="currency-note" style="margin-top: 10px;">Prices are shown in euros (EUR). Shipping costs are confirmed by email when your order is confirmed.</p>
     </form>
   </div>
 </main>
