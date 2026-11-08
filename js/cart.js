@@ -40,7 +40,7 @@ function updateCartCount() {
 }
 
 function money(n) {
-  return "$" + n.toFixed(2);
+  return "\u20ac" + n.toFixed(2);
 }
 
 function renderCart() {
@@ -73,7 +73,7 @@ function renderCart() {
       '<div class="cart-summary"><div class="row"><span>Subtotal</span><span>' + money(total) + '</span></div>' +
       '<div class="row"><span>Shipping</span><span>Confirmed by email</span></div>' +
       '<div class="row total"><span>Total</span><span>' + money(total) + '</span></div>' +
-      '<p class="price-note">Prices are shown in US dollars (USD). Shipping costs are confirmed by email when your order is confirmed.</p>' +
+      '<p class="price-note">Prices are shown in euros (EUR). Shipping costs are confirmed by email when your order is confirmed.</p>' +
       '<p style="margin-top:12px"><a class="btn" href="checkout.html">Continue to checkout</a></p>' +
       '<p style="margin-top:10px"><a href="shop.html">Continue shopping</a></p></div>';
 
@@ -125,7 +125,7 @@ function renderCheckout() {
     }).join("");
     summary.innerHTML = "<h2>Your order</h2><div class='order-lines'><table>" + lines +
       "<tr><td><strong>Total</strong></td><td><strong>" + money(total) + "</strong></td></tr></table></div>" +
-      "<p class='price-note'>Prices are shown in US dollars (USD). Shipping costs are confirmed by email when your order is confirmed.</p>";
+      "<p class='price-note'>Prices are shown in euros (EUR). Shipping costs are confirmed by email when your order is confirmed.</p>";
     form.dataset.total = total;
   });
 
@@ -216,7 +216,14 @@ function renderCheckout() {
 }
 
 var PAY_METHODS = {
-  bank: { label: "Bank transfer", detail: "the bank details" },
+  bank: { label: "Bank transfer (SEPA)", detail: "the bank details" },
+  paypal: { label: "PayPal", detail: "the PayPal payment details" },
+  card: { label: "Credit / Debit card", detail: "the card payment link" },
+  klarna: { label: "Klarna", detail: "the Klarna payment details" },
+  applepay: { label: "Apple Pay", detail: "the Apple Pay payment details" },
+  googlepay: { label: "Google Pay", detail: "the Google Pay payment details" },
+  revolut: { label: "Revolut", detail: "the Revolut payment details" },
+  chime: { label: "Chime", detail: "the Chime payment details" },
   btc: { label: "Bitcoin (BTC)", detail: "the Bitcoin wallet address" },
   usdt: { label: "USDT (Tether)", detail: "the USDT wallet address" }
 };
