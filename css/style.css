@@ -174,3 +174,11 @@ a:hover { text-decoration: underline; }
 .wa-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid #0b5e6e; color: #0b5e6e; background: #fff; border-radius: 999px; padding: 8px 16px; font-weight: 600; font-size: 0.92rem; margin: 10px 0 12px; }
 .wa-btn:hover { background: #eef6f7; text-decoration: none; }
 .wa-btn svg { width: 18px; height: 18px; flex: none; }
+
+/* Payment method choice on the checkout page. */
+.pay-options { display: flex; flex-direction: column; gap: 10px; margin: 14px 0; }
+.pay-option { display: flex; gap: 10px; align-items: flex-start; border: 1px solid #c4d0d4; border-radius: 8px; padding: 12px 14px; cursor: pointer; }
+.pay-option:hover { border-color: #0b5e6e; }
+.pay-option input { margin-top: 4px; }
+.pay-option:has(input:checked) { border-color: #0b5e6e; background: #eef6f7; }
+#payment-step h2 { margin-top: 8px; }

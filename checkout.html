@@ -44,10 +44,10 @@
 <main class="container">
   <div class="form-card">
     <h1>Guest checkout</h1>
-    <p class="lead">No account is created. Your details are used only to fulfil this order. This is an order request — no payment is taken here. The store will email you payment details (bank transfer or crypto) and confirm shipping.</p>
+    <p class="lead">No account is created. Your details are used only to fulfil this order. This is an order request — no payment is taken here. After your details, choose how you want to pay, and the store will email you the payment details for that method and confirm shipping.</p>
     <div id="checkout-summary"></div>
     <form id="checkout-form" novalidate>
-      <div class="form-grid">
+      <div class="form-grid" id="checkout-details">
         <div class="form-field">
           <label for="full-name">Full name *</label>
           <input type="text" id="full-name" name="full-name" autocomplete="name" required>
@@ -139,7 +139,18 @@
         </div>
       </div>
       <p class="form-error" id="checkout-error"></p>
-      <p style="margin-top: 18px;"><button class="btn" type="submit">Place order request</button></p>
+      <p style="margin-top: 18px;" id="checkout-continue-row"><button class="btn" type="button" id="checkout-continue">Continue to payment</button></p>
+      <div id="payment-step" style="display: none;">
+        <h2>How do you want to pay?</h2>
+        <p class="lead">Choose a payment method. No payment is taken here — the store will email you the payment details for the method you choose.</p>
+        <div class="pay-options" role="radiogroup" aria-label="Payment method">
+          <label class="pay-option"><input type="radio" name="payment-method" value="bank"><span><strong>Bank transfer</strong><br><span class="price-note">The store will email you the bank details.</span></span></label>
+          <label class="pay-option"><input type="radio" name="payment-method" value="btc"><span><strong>Bitcoin (BTC)</strong><br><span class="price-note">The store will email you the Bitcoin wallet address.</span></span></label>
+          <label class="pay-option"><input type="radio" name="payment-method" value="usdt"><span><strong>USDT (Tether)</strong><br><span class="price-note">The store will email you the USDT wallet address.</span></span></label>
+        </div>
+        <p class="form-error" id="payment-error"></p>
+        <p style="margin-top: 18px;"><button class="btn" type="submit">Send order request</button> <button class="btn btn-outline" type="button" id="payment-back">Back to your details</button></p>
+      </div>
       <p class="currency-note" style="margin-top: 10px;">Prices are shown in US dollars (USD). Euro (EUR) pricing will be set by the store. Shipping costs are confirmed by email when your order is confirmed.</p>
     </form>
   </div>
@@ -191,3 +202,4 @@
 <script src="js/cart.js"></script>
 </body>
 </html>
+
