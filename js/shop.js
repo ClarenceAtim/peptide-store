@@ -9,7 +9,8 @@ var FALLBACK_IMAGES = {
   cognitive: "images/products/semax-scene.webp",
   tanning: "images/products/tb-500-vial.png",
   cellular: "images/products/ara-290-vial.webp",
-  bundles: "images/products/bpc-tb-500-blend.png"
+  bundles: "images/products/bpc-tb-500-blend.png",
+  "weight-loss": "images/products/ipamorelin-vial.png"
 };
 
 function escAttr(s) {
@@ -69,7 +70,8 @@ var CATEGORY_INTROS = {
   cognitive: "The Cognitive range lists the peptides grouped under cognitive research in this catalog. They are supplied as lyophilized powder in sealed glass vials, in a range of sizes.",
   tanning: "The Tanning range lists Melanotan I, Melanotan II and PT-141 (Bremelanotide), supplied as lyophilized powder in sealed glass vials for laboratory research.",
   cellular: "The Cellular range lists the peptides grouped under cellular research in this catalog. They are supplied as lyophilized powder in sealed glass vials, in a range of sizes.",
-  bundles: "Bundles combine two or three products from the range in a single listing, supplied as lyophilized powder in sealed glass vials for laboratory research."
+  bundles: "Bundles combine two or three products from the range in a single listing, supplied as lyophilized powder in sealed glass vials for laboratory research.",
+  "weight-loss": "The Weight Loss range lists the peptides grouped under weight-loss research in this catalog, including GLP-1 compounds. They are supplied as lyophilized powder in sealed glass vials, in a range of sizes."
 };
 
 function productSeo(product, categoryLabel) {

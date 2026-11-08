@@ -24,6 +24,10 @@
    "name": "Cellular"
   },
   {
+   "id": "weight-loss",
+   "name": "Weight Loss"
+  },
+  {
    "id": "bundles",
    "name": "Bundles"
   }
@@ -185,6 +189,11 @@
      "label": "50 mg vial",
      "mg": 50,
      "price": 53.86
+    },
+    {
+     "label": "200 mg vial",
+     "mg": 200,
+     "price": 182.21
     }
    ],
    "image": "images/products/ghk-cu-vial.png"
@@ -365,6 +374,11 @@
      "label": "10 mg vial",
      "mg": 10,
      "price": 35.9
+    },
+    {
+     "label": "25 mg vial",
+     "mg": 25,
+     "price": 80.78
     }
    ],
    "image": "images/products/epitalon-scene.webp"
@@ -465,6 +479,11 @@
      "label": "20 mg vial",
      "mg": 20,
      "price": 76.3
+    },
+    {
+     "label": "25 mg vial",
+     "mg": 25,
+     "price": 49.59
     }
    ],
    "image": "images/products/semax-scene.webp"
@@ -645,6 +664,11 @@
      "label": "10 mg vial",
      "mg": 10,
      "price": 49.37
+    },
+    {
+     "label": "200 mg vial",
+     "mg": 200,
+     "price": 153.49
     }
    ],
    "image": "images/products/bpc-157-vial.png"
@@ -685,6 +709,11 @@
      "label": "10 mg vial",
      "mg": 10,
      "price": 52.96
+    },
+    {
+     "label": "25 mg vial",
+     "mg": 25,
+     "price": 153.48
     }
    ],
    "image": "images/products/ss-31-scene.webp"
@@ -826,6 +855,11 @@
      "label": "5 mg vial",
      "mg": 5,
      "price": 30.52
+    },
+    {
+     "label": "25 mg vial",
+     "mg": 25,
+     "price": 56.55
     }
    ],
    "image": "images/products/semax-scene.webp"
@@ -846,6 +880,11 @@
      "label": "10 mg vial",
      "mg": 10,
      "price": 62.83
+    },
+    {
+     "label": "16 mg vial",
+     "mg": 16,
+     "price": 82.58
     }
    ],
    "image": "images/products/ara-290-vial.webp"
@@ -863,6 +902,11 @@
    },
    "variants": [
     {
+     "label": "8 mg vial",
+     "mg": 8,
+     "price": 48.47
+    },
+    {
      "label": "10 mg vial",
      "mg": 10,
      "price": 62.83
@@ -874,7 +918,7 @@
    "id": "aod-9604-10mg",
    "name": "AOD-9604",
    "label": "AOD-9604",
-   "category": "growth",
+   "category": "weight-loss",
    "form": "Lyophilized powder in a sealed glass vial",
    "description": "AOD-9604 supplied as lyophilized powder in a sealed glass vial.",
    "source": {
@@ -1003,6 +1047,11 @@
    },
    "variants": [
     {
+     "label": "4 mg vial",
+     "mg": 4,
+     "price": 34.11
+    },
+    {
      "label": "5 mg vial",
      "mg": 5,
      "price": 35.01
@@ -1072,6 +1121,11 @@
      "label": "5 mg vial",
      "mg": 5,
      "price": 35.9
+    },
+    {
+     "label": "8 mg vial",
+     "mg": 8,
+     "price": 56.54
     }
    ],
    "image": "images/products/semax-scene.webp"
@@ -1112,6 +1166,11 @@
      "label": "10 mg vial",
      "mg": 10,
      "price": 71.81
+    },
+    {
+     "label": "25 mg vial",
+     "mg": 25,
+     "price": 123.87
     }
    ],
    "image": "images/products/semax-scene.webp"
@@ -1182,7 +1241,7 @@
    "id": "aod-9604-5mg",
    "name": "AOD-9604",
    "label": "AOD-9604",
-   "category": "growth",
+   "category": "weight-loss",
    "form": "Lyophilized powder in a sealed glass vial",
    "description": "AOD-9604 supplied as lyophilized powder in a sealed glass vial.",
    "source": {
@@ -1191,9 +1250,19 @@
    },
    "variants": [
     {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 32.3
+    },
+    {
      "label": "5 mg vial",
      "mg": 5,
      "price": 39.49
+    },
+    {
+     "label": "6 mg vial",
+     "mg": 6,
+     "price": 64.85
     }
    ],
    "image": "images/products/ipamorelin-vial.png"
@@ -1337,6 +1406,11 @@
    },
    "variants": [
     {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 32.3
+    },
+    {
      "label": "5 mg vial",
      "mg": 5,
      "price": 44.88
@@ -1441,6 +1515,11 @@
      "label": "5 mg vial",
      "mg": 5,
      "price": 58.34
+    },
+    {
+     "label": "6 mg vial",
+     "mg": 6,
+     "price": 57.45
     }
    ],
    "image": "images/products/semax-scene.webp"
@@ -1501,6 +1580,11 @@
      "label": "10 mg vial",
      "mg": 10,
      "price": 157.08
+    },
+    {
+     "label": "15 mg vial",
+     "mg": 15,
+     "price": 228.89
     }
    ],
    "image": "images/products/ara-290-vial.webp"
@@ -1521,6 +1605,11 @@
      "label": "5 mg vial",
      "mg": 5,
      "price": 85.27
+    },
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 72.7
     }
    ],
    "image": "images/products/semax-scene.webp"
@@ -1561,6 +1650,11 @@
      "label": "5 mg vial",
      "mg": 5,
      "price": 116.69
+    },
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 80.78
     }
    ],
    "image": "images/products/ipamorelin-vial.png"
@@ -1601,6 +1695,11 @@
      "label": "2 mg vial",
      "mg": 2,
      "price": 49.37
+    },
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 80.78
     }
    ],
    "image": "images/products/ipamorelin-vial.png"
@@ -1621,6 +1720,11 @@
      "label": "5 mg vial",
      "mg": 5,
      "price": 134.64
+    },
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 80.78
     }
    ],
    "image": "images/products/bpc-157-vial.png"
@@ -1641,6 +1745,11 @@
      "label": "2 mg vial",
      "mg": 2,
      "price": 58.34
+    },
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 36.35
     }
    ],
    "image": "images/products/semax-scene.webp"
@@ -1681,6 +1790,11 @@
      "label": "2 mg vial",
      "mg": 2,
      "price": 71.81
+    },
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 56.55
     }
    ],
    "image": "images/products/ipamorelin-vial.png"
@@ -1721,6 +1835,11 @@
      "label": "1 mg vial",
      "mg": 1,
      "price": 53.86
+    },
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 79.89
     }
    ],
    "image": "images/products/ipamorelin-vial.png"
@@ -2018,6 +2137,11 @@
    },
    "variants": [
     {
+     "label": "200 mg vial",
+     "mg": 200,
+     "price": 40.38
+    },
+    {
      "label": "600 mg vial",
      "mg": 600,
      "price": 26.88
@@ -2281,6 +2405,11 @@
      "label": "2 mg vial",
      "mg": 2,
      "price": 26.92
+    },
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 44.88
     }
    ],
    "image": "images/products/ipamorelin-vial.png"
@@ -2321,6 +2450,11 @@
      "label": "2 mg vial",
      "mg": 2,
      "price": 19.35
+    },
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 42.19
     }
    ],
    "image": "images/products/ipamorelin-vial.png"
@@ -2506,6 +2640,1101 @@
      "label": "Bundle",
      "mg": null,
      "price": 71.74
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "semaglutide-5mg",
+   "name": "Semaglutide",
+   "label": "Semaglutide",
+   "category": "weight-loss",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Semaglutide supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "3 mg vial",
+     "mg": 3,
+     "price": 40.38
+    },
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 49.37
+    },
+    {
+     "label": "6 mg vial",
+     "mg": 6,
+     "price": 64.62
+    },
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 62.83
+    },
+    {
+     "label": "12 mg vial",
+     "mg": 12,
+     "price": 105.01
+    },
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 98.74
+    },
+    {
+     "label": "30 mg vial",
+     "mg": 30,
+     "price": 103.22
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "tirzepatide-5mg",
+   "name": "Tirzepatide",
+   "label": "Tirzepatide",
+   "category": "weight-loss",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Tirzepatide supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 44.88
+    },
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 80.78
+    },
+    {
+     "label": "15 mg vial",
+     "mg": 15,
+     "price": 121.17
+    },
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 85.27
+    },
+    {
+     "label": "30 mg vial",
+     "mg": 30,
+     "price": 106.81
+    },
+    {
+     "label": "40 mg vial",
+     "mg": 40,
+     "price": 139.13
+    },
+    {
+     "label": "50 mg vial",
+     "mg": 50,
+     "price": 201.96
+    },
+    {
+     "label": "60 mg vial",
+     "mg": 60,
+     "price": 206.45
+    },
+    {
+     "label": "100 mg vial",
+     "mg": 100,
+     "price": 224.4
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "retatrutide-5mg",
+   "name": "Retatrutide",
+   "label": "Retatrutide",
+   "category": "weight-loss",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Retatrutide supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 71.81
+    },
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 76.3
+    },
+    {
+     "label": "15 mg vial",
+     "mg": 15,
+     "price": 80.78
+    },
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 103.22
+    },
+    {
+     "label": "30 mg vial",
+     "mg": 30,
+     "price": 148.1
+    },
+    {
+     "label": "40 mg vial",
+     "mg": 40,
+     "price": 183.11
+    },
+    {
+     "label": "50 mg vial",
+     "mg": 50,
+     "price": 187.6
+    },
+    {
+     "label": "60 mg vial",
+     "mg": 60,
+     "price": 192.09
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "cagrisema-5mg",
+   "name": "CagriSema",
+   "label": "CagriSema",
+   "category": "weight-loss",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "A blend of cagrilintide and semaglutide supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "2.5 mg + 2.5 mg (5 mg total)",
+     "mg": 5,
+     "price": 67.32
+    },
+    {
+     "label": "5 mg + 5 mg (10 mg total)",
+     "mg": 10,
+     "price": 130.15
+    },
+    {
+     "label": "10 mg + 10 mg (20 mg total)",
+     "mg": 20,
+     "price": 134.64
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "cagrilintide-2mg",
+   "name": "Cagrilintide",
+   "label": "Cagrilintide",
+   "category": "weight-loss",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Cagrilintide supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 53.86
+    },
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 67.32
+    },
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 76.3
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "mazdutide-10mg",
+   "name": "Mazdutide",
+   "label": "Mazdutide",
+   "category": "weight-loss",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Mazdutide supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "6 mg vial",
+     "mg": 6,
+     "price": 105.01
+    },
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 89.76
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "survodutide-10mg",
+   "name": "Survodutide",
+   "label": "Survodutide",
+   "category": "weight-loss",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Survodutide supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "6 mg vial",
+     "mg": 6,
+     "price": 201.96
+    },
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 143.62
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "dulaglutide-5mg",
+   "name": "Dulaglutide",
+   "label": "Dulaglutide",
+   "category": "weight-loss",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Dulaglutide supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "LabFirst Peptides",
+    "url": "https://labfirstpeptides.com/tools/cost-per-mg/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 116.69
+    },
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 121.18
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "glp-1-7-36-amide-5mg",
+   "name": "GLP-1 (7-36) Amide",
+   "label": "GLP-1 (7-36) Amide",
+   "category": "weight-loss",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "GLP-1 (7-36) Amide supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Northline Peptide Co.",
+    "url": "https://www.buypeptidesusaonline.com/shop.html"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 61.93
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "b7-33-6mg",
+   "name": "B7-33",
+   "label": "B7-33",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "B7-33 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "6 mg vial",
+     "mg": 6,
+     "price": 53.86
+    }
+   ],
+   "image": "images/products/bpc-157-vial.png"
+  },
+  {
+   "id": "fragment-176-191-5mg",
+   "name": "Fragment 176-191",
+   "label": "Fragment 176-191",
+   "category": "weight-loss",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Fragment 176-191 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 39.49
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "fragment-176-191-cjc-ipa-blend-12mg",
+   "name": "Fragment 176-191 & CJC-1295 & Ipamorelin Blend",
+   "label": "Fragment 176-191 & CJC-1295 & Ipamorelin Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of Fragment 176-191, CJC-1295 and Ipamorelin supplied as lyophilized powder.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "12 mg total",
+     "mg": 12,
+     "price": 65.52
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "ghk-basic-50mg",
+   "name": "GHK Basic",
+   "label": "GHK Basic",
+   "category": "healing",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "GHK Basic supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "50 mg vial",
+     "mg": 50,
+     "price": 43.98
+    },
+    {
+     "label": "200 mg vial",
+     "mg": 200,
+     "price": 140.92
+    }
+   ],
+   "image": "images/products/bpc-157-vial.png"
+  },
+  {
+   "id": "humanin-10mg",
+   "name": "Humanin",
+   "label": "Humanin",
+   "category": "cellular",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Humanin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 131.95
+    }
+   ],
+   "image": "images/products/ara-290-vial.webp"
+  },
+  {
+   "id": "mod-grf-ghrp-2-blend-10mg",
+   "name": "Mod GRF 1-29 & GHRP-2 Blend",
+   "label": "Mod GRF 1-29 & GHRP-2 Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of Mod GRF 1-29 and GHRP-2 supplied as lyophilized powder.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "10 mg total",
+     "mg": 10,
+     "price": 65.52
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "mod-grf-ghrp-6-blend-10mg",
+   "name": "Mod GRF 1-29 & GHRP-6 Blend",
+   "label": "Mod GRF 1-29 & GHRP-6 Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of Mod GRF 1-29 and GHRP-6 supplied as lyophilized powder.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "10 mg total",
+     "mg": 10,
+     "price": 67.32
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "n-acetyl-selank-10mg",
+   "name": "N-Acetyl Selank",
+   "label": "N-Acetyl Selank",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "N-Acetyl Selank supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 63.73
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "n-acetyl-semax-25mg",
+   "name": "N-Acetyl Semax",
+   "label": "N-Acetyl Semax",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "N-Acetyl Semax supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "25 mg vial",
+     "mg": 25,
+     "price": 53.86
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "nonapeptide-1-200mg",
+   "name": "Nonapeptide-1",
+   "label": "Nonapeptide-1",
+   "category": "cellular",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Nonapeptide-1 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "200 mg vial",
+     "mg": 200,
+     "price": 192.09
+    }
+   ],
+   "image": "images/products/ara-290-vial.webp"
+  },
+  {
+   "id": "pnc-27-5mg",
+   "name": "PNC-27",
+   "label": "PNC-27",
+   "category": "cellular",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "PNC-27 supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 123.87
+    },
+    {
+     "label": "30 mg vial",
+     "mg": 30,
+     "price": 96.93
+    }
+   ],
+   "image": "images/products/ara-290-vial.webp"
+  },
+  {
+   "id": "sermorelin-ghrp-2-blend-10mg",
+   "name": "Sermorelin & GHRP-2 Blend",
+   "label": "Sermorelin & GHRP-2 Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of Sermorelin and GHRP-2 supplied as lyophilized powder.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "10 mg total",
+     "mg": 10,
+     "price": 78.99
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "sermorelin-ghrp-6-ghrp-2-blend-9mg",
+   "name": "Sermorelin & GHRP-6 & GHRP-2 Blend",
+   "label": "Sermorelin & GHRP-6 & GHRP-2 Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of Sermorelin, GHRP-6 and GHRP-2 supplied as lyophilized powder.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "9 mg total",
+     "mg": 9,
+     "price": 76.3
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "sermorelin-ghrp-6-blend-10mg",
+   "name": "Sermorelin & GHRP-6 Blend",
+   "label": "Sermorelin & GHRP-6 Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of Sermorelin and GHRP-6 supplied as lyophilized powder.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "10 mg total",
+     "mg": 10,
+     "price": 78.99
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "sermorelin-ipamorelin-blend-10mg",
+   "name": "Sermorelin & Ipamorelin Blend",
+   "label": "Sermorelin & Ipamorelin Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of Sermorelin and Ipamorelin supplied as lyophilized powder.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "10 mg total",
+     "mg": 10,
+     "price": 71.81
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "tesamorelin-mod-grf-ipamorelin-blend-12mg",
+   "name": "Tesamorelin & Mod GRF & Ipamorelin Blend",
+   "label": "Tesamorelin & Mod GRF & Ipamorelin Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of Tesamorelin, Mod GRF 1-29 and Ipamorelin supplied as lyophilized powder.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "12 mg total",
+     "mg": 12,
+     "price": 105.02
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "tesamorelin-ipamorelin-blend-8mg",
+   "name": "Tesamorelin & Ipamorelin Blend",
+   "label": "Tesamorelin & Ipamorelin Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of Tesamorelin and Ipamorelin supplied as lyophilized powder.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "8 mg total",
+     "mg": 8,
+     "price": 80.78
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "thymagen-20mg",
+   "name": "Thymagen",
+   "label": "Thymagen",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Thymagen supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 70.01
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "thyrotropin-trh-25mg",
+   "name": "Thyrotropin TRH",
+   "label": "Thyrotropin TRH",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Thyrotropin TRH supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "25 mg vial",
+     "mg": 25,
+     "price": 65.52
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "triptorelin-2mg",
+   "name": "Triptorelin",
+   "label": "Triptorelin",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Triptorelin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "2 mg vial",
+     "mg": 2,
+     "price": 48.47
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "vesilut-20mg",
+   "name": "Vesilut",
+   "label": "Vesilut",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Vesilut supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 57.45
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "vilon-20mg",
+   "name": "Vilon",
+   "label": "Vilon",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Vilon supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 66.42
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "cjc-1295-hexarelin-blend-10mg",
+   "name": "CJC-1295 & Hexarelin Blend",
+   "label": "CJC-1295 & Hexarelin Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of CJC-1295 and Hexarelin supplied as lyophilized powder.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "10 mg total",
+     "mg": 10,
+     "price": 78.09
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "cjc-1295-ghrp-2-blend-10mg",
+   "name": "CJC-1295 & GHRP-2 Blend",
+   "label": "CJC-1295 & GHRP-2 Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of CJC-1295 and GHRP-2 supplied as lyophilized powder.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "10 mg total",
+     "mg": 10,
+     "price": 75.4
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "cjc-1295-ghrp-6-blend-10mg",
+   "name": "CJC-1295 & GHRP-6 Blend",
+   "label": "CJC-1295 & GHRP-6 Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of CJC-1295 and GHRP-6 supplied as lyophilized powder.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "10 mg total",
+     "mg": 10,
+     "price": 61.93
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "cjc-1295-ipamorelin-ghrp-2-blend-9mg",
+   "name": "CJC-1295 & Ipamorelin & GHRP-2 Blend",
+   "label": "CJC-1295 & Ipamorelin & GHRP-2 Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of CJC-1295, Ipamorelin and GHRP-2 supplied as lyophilized powder.",
+   "source": {
+    "store": "Core Peptides",
+    "url": "https://www.corepeptides.com/peptides/"
+   },
+   "variants": [
+    {
+     "label": "9 mg total",
+     "mg": 9,
+     "price": 72.71
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "abaloparatide-3mg",
+   "name": "Abaloparatide",
+   "label": "Abaloparatide",
+   "category": "growth",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Abaloparatide supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Maxxing Peptide",
+    "url": "https://www.maxxingpeptide.com/store"
+   },
+   "variants": [
+    {
+     "label": "3 mg vial",
+     "mg": 3,
+     "price": 121.17
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "cagri-reta-5mg",
+   "name": "Cagri-Reta",
+   "label": "Cagri-Reta",
+   "category": "weight-loss",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "A blend of cagrilintide and retatrutide supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Maxxing Peptide",
+    "url": "https://www.maxxingpeptide.com/store"
+   },
+   "variants": [
+    {
+     "label": "5 mg vial",
+     "mg": 5,
+     "price": 105.01
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "crystagen-20mg",
+   "name": "Crystagen",
+   "label": "Crystagen",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "Crystagen supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Maxxing Peptide",
+    "url": "https://www.maxxingpeptide.com/store"
+   },
+   "variants": [
+    {
+     "label": "20 mg vial",
+     "mg": 20,
+     "price": 64.62
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "ipamorelin-tesamorelin-blend-13mg",
+   "name": "Ipamorelin / Tesamorelin Blend",
+   "label": "Ipamorelin / Tesamorelin Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "A blend of Ipamorelin and Tesamorelin supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Maxxing Peptide",
+    "url": "https://www.maxxingpeptide.com/store"
+   },
+   "variants": [
+    {
+     "label": "13 mg total",
+     "mg": 13,
+     "price": 105.01
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "n-acetyl-semax-amidate-30mg",
+   "name": "N-Acetyl Semax Amidate",
+   "label": "N-Acetyl Semax Amidate",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "N-Acetyl Semax Amidate supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Maxxing Peptide",
+    "url": "https://www.maxxingpeptide.com/store"
+   },
+   "variants": [
+    {
+     "label": "30 mg vial",
+     "mg": 30,
+     "price": 121.17
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "na-epitalon-10mg",
+   "name": "NA-Epitalon",
+   "label": "NA-Epitalon",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "NA-Epitalon supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Maxxing Peptide",
+    "url": "https://www.maxxingpeptide.com/store"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 64.62
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "na-selank-amidate-10mg",
+   "name": "NA-Selank Amidate",
+   "label": "NA-Selank Amidate",
+   "category": "cognitive",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "NA-Selank Amidate supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Maxxing Peptide",
+    "url": "https://www.maxxingpeptide.com/store"
+   },
+   "variants": [
+    {
+     "label": "10 mg vial",
+     "mg": 10,
+     "price": 64.62
+    },
+    {
+     "label": "30 mg vial",
+     "mg": 30,
+     "price": 145.4
+    }
+   ],
+   "image": "images/products/semax-scene.webp"
+  },
+  {
+   "id": "reta-cagri-5mg",
+   "name": "Reta-Cagri",
+   "label": "Reta-Cagri",
+   "category": "weight-loss",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "A blend of retatrutide and cagrilintide supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Maxxing Peptide",
+    "url": "https://www.maxxingpeptide.com/store"
+   },
+   "variants": [
+    {
+     "label": "5 mg + 5 mg (10 mg total)",
+     "mg": 10,
+     "price": 121.17
+    }
+   ],
+   "image": "images/products/ipamorelin-vial.png"
+  },
+  {
+   "id": "a-klotho-lr-10mcg",
+   "name": "a-Klotho LR",
+   "label": "a-Klotho LR",
+   "category": "cellular",
+   "form": "Lyophilized powder in a sealed glass vial",
+   "description": "a-Klotho LR supplied as lyophilized powder in a sealed glass vial.",
+   "source": {
+    "store": "Paramount Peptides",
+    "url": "https://paramountpeptides.com/product-category/peptide-vials/"
+   },
+   "variants": [
+    {
+     "label": "10 mcg vial",
+     "mg": 0.01,
+     "price": 134.19
+    }
+   ],
+   "image": "images/products/ara-290-vial.webp"
+  },
+  {
+   "id": "tesamorelin-ipamorelin-blend-12mg",
+   "name": "Tesamorelin & Ipamorelin Blend",
+   "label": "Tesamorelin & Ipamorelin Blend",
+   "category": "bundles",
+   "form": "Lyophilized powder",
+   "description": "A blend of Tesamorelin and Ipamorelin supplied as lyophilized powder.",
+   "source": {
+    "store": "Paramount Peptides",
+    "url": "https://paramountpeptides.com/product-category/peptide-vials/"
+   },
+   "variants": [
+    {
+     "label": "10 mg + 2 mg (12 mg total)",
+     "mg": 12,
+     "price": 68.67
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "semax-selank-oxytocin-bundle",
+   "name": "Semax + Selank + Oxytocin Bundle",
+   "label": "Semax + Selank + Oxytocin Bundle",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A bundle of Semax, Selank and Oxytocin supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "Paramount Peptides",
+    "url": "https://paramountpeptides.com/product-category/browse-all-products/shop-all-peptides/peptide-bundles-shop-peptides/"
+   },
+   "variants": [
+    {
+     "label": "30 mg + 10 mg + 10 mg",
+     "mg": 50,
+     "price": 199.13
+    }
+   ],
+   "image": "images/products/bpc-tb-500-blend.png"
+  },
+  {
+   "id": "cjc-1295-ipamorelin-duo-20mg",
+   "name": "CJC-1295 + Ipamorelin Bundle Duo",
+   "label": "CJC-1295 + Ipamorelin Bundle Duo",
+   "category": "bundles",
+   "form": "Lyophilized powder in sealed glass vials",
+   "description": "A bundle of CJC-1295 and Ipamorelin supplied as lyophilized powder in sealed glass vials.",
+   "source": {
+    "store": "Paramount Peptides",
+    "url": "https://paramountpeptides.com/product-category/browse-all-products/shop-all-peptides/peptide-bundles-shop-peptides/"
+   },
+   "variants": [
+    {
+     "label": "10 mg + 10 mg (two vials)",
+     "mg": 20,
+     "price": 107.81
     }
    ],
    "image": "images/products/bpc-tb-500-blend.png"
