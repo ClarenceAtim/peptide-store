@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://clarenceatim.github.io/peptide-store/</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/shop.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/cart.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/checkout.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/confirmation.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/terms.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/privacy.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/faq.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/about.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/shipping.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/contact.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/category.html?cat=healing</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/category.html?cat=growth</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/category.html?cat=cognitive</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/category.html?cat=tanning</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/category.html?cat=cellular</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://clarenceatim.github.io/peptide-store/category.html?cat=bundles</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/shop.html</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/cart.html</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/checkout.html</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/confirmation.html</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/terms.html</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/privacy.html</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/faq.html</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/about.html</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/shipping.html</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/contact.html</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/category.html?cat=healing</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/category.html?cat=growth</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/category.html?cat=cognitive</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/category.html?cat=tanning</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/category.html?cat=cellular</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/category.html?cat=bundles</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/category.html?cat=weight-loss</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://clarenceatim.github.io/peptide-store/product.html?id=glutathione-1500mg</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://clarenceatim.github.io/peptide-store/product.html?id=nad-plus-1000mg</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://clarenceatim.github.io/peptide-store/product.html?id=nad-plus-500mg</loc><lastmod>2026-11-06</lastmod></url>
@@ -187,4 +188,8 @@
   <url><loc>https://clarenceatim.github.io/peptide-store/product.html?id=tesamorelin-ipamorelin-blend-12mg</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://clarenceatim.github.io/peptide-store/product.html?id=semax-selank-oxytocin-bundle</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://clarenceatim.github.io/peptide-store/product.html?id=cjc-1295-ipamorelin-duo-20mg</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/blog/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/blog/what-are-research-peptides.html</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/blog/bpc-157-research-overview.html</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://clarenceatim.github.io/peptide-store/blog/glp-1-peptides-in-research.html</loc><lastmod>2026-11-09</lastmod></url>
 </urlset>
