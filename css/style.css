@@ -182,3 +182,14 @@ a:hover { text-decoration: underline; }
 .pay-option input { margin-top: 4px; }
 .pay-option:has(input:checked) { border-color: #0b5e6e; background: #eef6f7; }
 #payment-step h2 { margin-top: 8px; }
+
+/* Blog */
+.post-list { display: flex; flex-direction: column; gap: 20px; margin: 20px 0 28px; }
+.post-card { border: 1px solid #e4eaec; border-radius: 10px; padding: 20px 22px; }
+.post-card h2 { margin: 0 0 6px; font-size: 1.25rem; }
+.post-card h2 a { color: #12303a; }
+.post-card p:last-child { margin-bottom: 0; }
+.post-meta { color: #55636d; font-size: 0.88rem; margin: 0 0 10px; }
+.article { max-width: 720px; }
+.article h2 { margin-top: 28px; }
+.article p, .article li { line-height: 1.65; }
